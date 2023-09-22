@@ -1,0 +1,46 @@
+@startuml
+'skinparam monochrome true
+skinparam packageStyle rectangle
+'skinparam shadowing false
+
+skinparam rectangle{
+    BorderColor black
+}
+
+'title Use Case Diagram Example
+
+left to right direction
+
+rectangle "System Actors" as actors {
+    actor "Unregistered User"
+    actor Agent
+    actor Administrator
+    actor Owner
+    'actor "Organization\nEmployee" as Employee
+}
+
+
+'note right of User
+    'Actor identified but still
+    'no concrete use cases
+'end note
+
+rectangle "Use Cases" as usecases{
+    usecase "UC1: Display listed properties." as UC1
+    usecase "UC2: Publish any sale announcement on the system" as UC2
+    usecase "UC3: Register a new employee." as UC3
+    usecase "UC4: Submit a request for listing a property sale or rent, choosing the responsible agent." as UC4
+    usecase "UC5: Register a store." as UC5
+    usecase "UC6: Specify districts, municipalities, and parishes in the system." as UC6
+    "Unregistered User" --> UC1
+    Agent --> UC2
+    Administrator --> UC3
+    Owner --> UC4
+    Administrator --> UC5
+    Administrator --> UC6
+
+}
+
+
+
+@enduml
