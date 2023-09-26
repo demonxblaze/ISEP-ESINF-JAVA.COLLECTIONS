@@ -10,7 +10,7 @@ public class SuperCharger {
     private Address address;
     private Status status;
 
-    public SuperCharger(String name, int stalls, double kW, int elevm, String street, String zip, String coordinates, Status status) {
+    public SuperCharger(String name, int stalls, double kW, int elevm, String street, String zip, String coordinates, String status) {
         setName(name);
         setStalls(stalls);
         setkW(kW);
@@ -63,7 +63,11 @@ public class SuperCharger {
         return status;
     }
 
-    public void setStatus(Status status) {
-        this.status = status;
+    public void setStatus(String status) {
+        if (status.equalsIgnoreCase("OPEN")){
+            this.status = Status.OPEN;
+        }else {
+            this.status = Status.CLOSE;
+        }
     }
 }

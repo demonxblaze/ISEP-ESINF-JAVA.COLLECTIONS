@@ -26,7 +26,7 @@ public class City {
     public void setChargersList(SuperchargersList chargersList) {
         this.chargersList = chargersList;
     }
-    public void newCharger(String name, int stalls, double kW, int elevm, String street, String zip, String coordinates, Status status){
+    public void newCharger(String name, int stalls, double kW, int elevm, String street, String zip, String coordinates, String status){
         chargersList.add(new SuperCharger(name, stalls, kW, elevm, street, zip, coordinates, status));
     }
 }
