@@ -3,7 +3,7 @@ package org.example;
 public class SuperCharger {
 
     private String name;
-    private int Stalls;
+    private int stalls;
     private double kW;
     private int elevm;
 
@@ -28,11 +28,11 @@ public class SuperCharger {
     }
 
     public int getStalls() {
-        return Stalls;
+        return stalls;
     }
 
     public void setStalls(int stalls) {
-        Stalls = stalls;
+        this.stalls = stalls;
     }
 
     public double getkW() {

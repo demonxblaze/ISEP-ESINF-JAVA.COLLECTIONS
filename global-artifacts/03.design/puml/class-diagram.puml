@@ -1,27 +1,85 @@
 @startuml
+'skinparam monochrome true
+skinparam packageStyle rectangle
+skinparam shadowing false
+'skinparam linetype polyline
+skinparam linetype orto
+
 skinparam classAttributeIconSize 0
 
-class ApplicationSession
-{
-  +static getInstance()
-  +getCurrentSession()
+'left to right direction
+
+class Address{
+street: String
+zip: String
+coordinates: Gps
 }
 
-class UserSession
-{
-  +isLoggedInWithRole(USER_ROLE)
+class City{
+name: String
+chargersList: SuperChargersList
 }
 
-class "{NameOfUC}Controller" {
-    + {NameOfUC}Controller()
-    + methodX(...)
+class Country{
+name: String
+states: StatesList
+sales: SalesList
 }
 
-class "{NameOfUC}UI" {
+class Gps{
+latitute: double
+longitude: double
 }
 
-"{NameOfUC}UI" ..> "{NameOfUC}Controller"
-"{NameOfUC}Controller" ..> ApplicationSession
-"{NameOfUC}Controller" ..> UserSession
+enum PowerTrain{
+BEV
+PHEV
+description: String
+}
+
+class SalesData{
+year: int
+numVehicles: int
+powerTrain: PowerTrain
+}
+
+class State{
+name: String
+cities: CitiesList
+}
+
+enum Status{
+OPEN
+CLOSE
+}
+
+class SuperCharger{
+name: String
+stalls: int
+kW: double
+elevm: int
+address: Address
+status: Status
+}
+
+class CitiesList{
+cities: ArrayList<City>
+}
+
+class CountriesList{
+countries: ArrayList<Country>
+}
+
+class SalesList{
+sales: ArrayList<SalesData>
+}
+
+class StatesList{
+states: ArrayList<State>
+}
+
+class SuperChargersList{
+superChargers: ArrayList<SuperCharger>
+}
 
 @enduml

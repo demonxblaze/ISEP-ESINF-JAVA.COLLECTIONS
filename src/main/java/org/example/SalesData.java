@@ -3,12 +3,12 @@ package org.example;
 public class SalesData {
     private int year;
     private int numVehicles;
-    private Powertrain powertrain;
+    private Powertrain powerTrain;
 
     public SalesData(int year, int numVehicles, Powertrain powertrain) {
         setYear(year);
         setNumVehicles(numVehicles);
-        setPowertrain(powertrain);
+        setPowerTrain(powertrain);
     }
 
     public int getYear() {
@@ -27,11 +27,11 @@ public class SalesData {
         this.numVehicles = numVehicles;
     }
 
-    public Powertrain getPowertrain() {
-        return powertrain;
+    public Powertrain getPowerTrain() {
+        return powerTrain;
     }
 
-    public void setPowertrain(Powertrain powertrain) {
-        this.powertrain = powertrain;
+    public void setPowerTrain(Powertrain powertrain) {
+        this.powerTrain = powertrain;
     }
 }
