@@ -28,7 +28,7 @@ public interface FileScanner {
             line = br.readLine();
             while ((line = br.readLine()) != null) {
                 if (!line.trim().isEmpty()) {
-                    String[] data = line.split(",");
+                    String[] data = line.split(",(?! )");;
                     lines.add(data);
                 }
             }
