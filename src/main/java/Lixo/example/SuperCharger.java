@@ -7,7 +7,6 @@ public class SuperCharger {
     private double kW;
     private int elevm;
 
-    private Address address;
     private Status status;
 
     public SuperCharger(String name, int stalls, double kW, int elevm, String street, String zip, String coordinates, String status) {
@@ -15,7 +14,7 @@ public class SuperCharger {
         setStalls(stalls);
         setkW(kW);
         setElevm(elevm);
-        setAddress(street, zip,coordinates);
+        //setAddress(street, zip,coordinates);
         setStatus(status);
     }
 
@@ -51,13 +50,6 @@ public class SuperCharger {
         this.elevm = elevm;
     }
 
-    public Address getAddress() {
-        return address;
-    }
-
-    public void setAddress(String street, String zip, String coordinates) {
-        this.address = new Address(street,zip,coordinates);
-    }
 
     public Status getStatus() {
         return status;

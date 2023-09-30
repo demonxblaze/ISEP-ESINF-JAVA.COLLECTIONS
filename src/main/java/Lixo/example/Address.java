@@ -14,7 +14,7 @@ public class Address {
     /**
      * Coordinates of the address
      */
-    private Gps coordinates;
+
 
     /**
      * Constructor
@@ -25,7 +25,6 @@ public class Address {
     public Address(String street, String zip, String coordinates) {
         setStreet(street);
         setZip(zip);
-        setCoordinates(coordinates);
     }
 
     /**
@@ -64,17 +63,6 @@ public class Address {
      * Getter
      * @return coordinates
      */
-    public Gps getCoordinates() {
-        return coordinates;
-    }
 
-    /**
-     * Setter
-     * @param coordinates coordinates
-     */
-    public void setCoordinates(String  coordinates) {
-        String[] crd= coordinates.split(",");
-        this.coordinates = new Gps(crd);
-    }
 
 }
