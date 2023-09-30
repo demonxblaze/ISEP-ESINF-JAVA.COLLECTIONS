@@ -10,32 +10,34 @@ import java.util.*;
 public class Exercicio1 {
 
     public Map<String, Set<City>> exercicio1(String fileName){
-        Map <String, Set<City>> map = new HashMap<>();
+        Map<String, Set<City>> map = new HashMap<>();
 
         List<String[]> lines = FileScanner.lerCSV(fileName);
 
-        for (String[] s: lines ) {
+        for (String[] s : lines) {
             String country = s[5];
             String city = s[2];
 
-            if (map.containsKey(country)) {
-                for (City c : map.get(country)) {
-                    if (c.getName().equals(city)) {
-                        c.setNumberChargers(c.getNumberChargers() + 1);
-                    } else {
-                        map.get(country).add(new City(city, 1));
-                    }
+
+            Set<City> cities = map.getOrDefault(country, new HashSet<>());
+
+
+            boolean cityFound = false;
+            for (City c : cities) {
+                if (c.getName().equals(city)) {
+                    c.setNumberChargers(c.getNumberChargers() + 1);
+                    cityFound = true;
                 }
-            } else {
-                Set<City> set = new HashSet<>();
-                set.add(new City(city, 1));
-                map.put(country, set);
             }
+
+            if (!cityFound) {
+                cities.add(new City(city, 1));
+            }
+
+            map.put(country, cities);
         }
 
-
         return map;
-
     }
 
 }
