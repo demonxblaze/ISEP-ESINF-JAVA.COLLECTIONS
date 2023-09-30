@@ -1,4 +1,4 @@
-package org.example;
+package Lixo.example;
 
 public enum Powertrain {
     BEV("Battery Electric Vehicles"),

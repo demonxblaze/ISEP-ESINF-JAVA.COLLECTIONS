@@ -1,7 +1,6 @@
-package Lists;
+package Lixo.example.Lists;
 
-import org.example.City;
-import org.example.SalesData;
+import Lixo.example.SalesData;
 
 import java.util.ArrayList;
 

@@ -1,11 +1,11 @@
-package org.example;
+package Lixo.example;
 
 public class SalesData {
     private int year;
     private int numVehicles;
     private Powertrain powerTrain;
 
-    public SalesData(int year, int numVehicles, Powertrain powertrain) {
+    public SalesData(int year, int numVehicles, String powertrain) {
         setYear(year);
         setNumVehicles(numVehicles);
         setPowerTrain(powertrain);
@@ -31,7 +31,11 @@ public class SalesData {
         return powerTrain;
     }
 
-    public void setPowerTrain(Powertrain powertrain) {
-        this.powerTrain = powertrain;
+    public void setPowerTrain(String powertrain) {
+        if (powertrain.equalsIgnoreCase("PHEV")){
+            this.powerTrain = Powertrain.PHEV;
+        }else {
+            this.powerTrain = Powertrain.BEV;
+        }
     }
 }

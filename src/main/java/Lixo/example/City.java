@@ -1,6 +1,6 @@
-package org.example;
+package Lixo.example;
 
-import Lists.SuperchargersList;
+import Lixo.example.Lists.SuperchargersList;
 
 /**
  * Author @

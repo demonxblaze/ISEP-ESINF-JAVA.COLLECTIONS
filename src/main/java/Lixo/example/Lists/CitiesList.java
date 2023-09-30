@@ -1,7 +1,6 @@
-package Lists;
+package Lixo.example.Lists;
 
-import org.example.City;
-import org.example.SuperCharger;
+import Lixo.example.City;
 
 import java.util.ArrayList;
 

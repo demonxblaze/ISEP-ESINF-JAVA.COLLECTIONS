@@ -1,6 +1,6 @@
-package org.example;
+package Lixo.example;
 
-import Lists.CitiesList;
+import Lixo.example.Lists.CitiesList;
 
 public class State {
     private String name;

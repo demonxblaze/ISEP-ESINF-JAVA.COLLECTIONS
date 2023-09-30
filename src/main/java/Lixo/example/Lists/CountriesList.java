@@ -1,6 +1,6 @@
-package Lists;
+package Lixo.example.Lists;
 
-import org.example.Country;
+import Lixo.example.Country;
 
 import java.util.ArrayList;
 

@@ -1,6 +1,6 @@
-package Lists;
+package Lixo.example.Lists;
 
-import org.example.SuperCharger;
+import Lixo.example.SuperCharger;
 
 import java.util.ArrayList;
 

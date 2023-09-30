@@ -1,7 +1,7 @@
-package org.example;
+package Lixo.example;
 
-import Lists.SalesList;
-import Lists.StatesList;
+import Lixo.example.Lists.SalesList;
+import Lixo.example.Lists.StatesList;
 
 /**
  * Author @
