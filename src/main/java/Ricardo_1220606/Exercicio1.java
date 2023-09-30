@@ -15,7 +15,7 @@ public class Exercicio1 {
         List<String[]> lines = FileScanner.lerCSV(fileName);
 
         for (String[] s: lines ) {
-            String country = s[1];
+            String country = s[5];
             String city = s[2];
 
             if (map.containsKey(country)) {

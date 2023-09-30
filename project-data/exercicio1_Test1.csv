@@ -1,0 +1,70 @@
+Supercharger,StreetAddress,City,State,Zip,Country,Stalls,kW,GPS,Elevm,Status
+Stockholm Central, Sweden,Main Street,Stockholm,,123 45,Sweden,8,250,"59.330372, 18.053788",76,Open
+Stockholm Södra, Sweden,South Street,Stockholm,,123 45,Sweden,8,250,"59.307440, 18.036607",54,Open
+Stockholm Norr, Sweden,North Street,Stockholm,,123 45,Sweden,12,250,"59.359445, 18.039833",90,Open
+Birmingham - Bullring, UK,Shopping Street,Birmingham,,B1 1SA,United Kingdom,16,250,"52.477936, -1.894139",32,Open
+Birmingham - Central, UK,Central Street,Birmingham,,B1 2AB,United Kingdom,14,250,"52.475638, -1.901458",47,Open
+Munich, Germany,City Center,Munich,Bavaria,80331,Germany,20,250,"48.137154, 11.576124",534,Open
+Munich - Schwabing, Germany,Schwabing Street,Munich,Bavaria,80802,Germany,10,250,"48.162607, 11.581080",76,Open
+Lyon, France,"Rue de la République 1",Lyon,Auvergne-Rhône-Alpes,69001,France,18,150,"45.756817, 4.835431",219,Open
+Lyon - Confluence, France,Confluence Street,Lyon,Auvergne-Rhône-Alpes,69002,France,14,150,"45.725005, 4.814794",31,Open
+Copenhagen, Denmark,Shopping Avenue,Copenhagen,Capital Region,1234,Denmark,10,150,"55.676097, 12.568337",101,Open
+Copenhagen - Vesterbro, Denmark,Vesterbro Street,Copenhagen,Capital Region,1620,Denmark,12,150,"55.674917, 12.556983",17,Open
+Berlin - Alexanderplatz, Germany,Alexanderplatz,Berlin,,10178,Germany,14,150,"52.521596, 13.411362",422,Open
+Berlin - Tiergarten, Germany,Tiergarten Street,Berlin,,10785,Germany,16,150,"52.510105, 13.367786",25,Open
+Oslo, Norway,"Oslo City Center, Street 2",Oslo,Oslo,0010,Norway,22,250,"59.913330, 10.741030",67,Open
+Oslo - Grünerløkka, Norway,Grünerløkka Street,Oslo,Oslo,0552,Norway,14,250,"59.922635, 10.761437",28,Open
+Gothenburg, Sweden,Waterfront Street,Gothenburg,Västra Götaland,123 45,Sweden,12,150,"57.708870, 11.974560",105,Open
+Gothenburg - Hisingen, Sweden,Hisingen Street,Gothenburg,Västra Götaland,418 78,Sweden,18,150,"57.745224, 11.923375",62,Open
+Stuttgart, Germany,Stuttgart Center,Stuttgart,Baden-Württemberg,70173,Germany,18,250,"48.779289, 9.173141",322,Open
+Stuttgart - Bad Cannstatt, Germany,Bad Cannstatt Street,Stuttgart,Baden-Württemberg,70372,Germany,12,250,"48.803042, 9.215324",40,Open
+Paris - Champs-Élysées, France,"Champs-Élysées, Paris",Paris,Île-de-France,75008,France,24,150,"48.869197, 2.307168",120,Open
+Paris - Bastille, France,"Bastille Square, Paris",Paris,Île-de-France,75011,France,20,150,"48.853581, 2.369752",35,Open
+Helsinki, Finland,Helsinki City Center,Helsinki,Uusimaa,00100,Finland,10,130,"60.169753, 24.942574",13,Open
+Helsinki - Kamppi, Finland,Kamppi Street,Helsinki,Uusimaa,00100,Finland,12,130,"60.167648, 24.933628",27,Open
+Prague, Czech Republic,Old Town Square,Prague,Prague,110 00,Czech Republic,16,150,"50.087806, 14.420534",227,Open
+Prague - Vyšehrad, Czech Republic,Vyšehrad Street,Prague,Prague,128 00,Czech Republic,14,150,"50.063186, 14.416365",11,Open
+Vienna, Austria,Vienna Downtown,Vienna,Vienna,1010,Austria,14,150,"48.209206, 16.372778",161,Open
+Vienna - Schönbrunn, Austria,Schönbrunn Street,Vienna,Vienna,1130,Austria,10,150,"48.185711, 16.310758",53,Open
+Rome - Colosseum, Italy,"Colosseum Square, Rome",Rome,Lazio,00184,Italy,20,150,"41.890178, 12.492339",57,Open
+Rome - Trevi Fountain, Italy,"Trevi Fountain Square, Rome",Rome,Lazio,00187,Italy,18,150,"41.900933, 12.483171",8,Open
+Amsterdam, Netherlands,Amsterdam Center,Amsterdam,North Holland,1012,Netherlands,12,150,"52.373096, 4.893592",3,Open
+Amsterdam - Vondelpark, Netherlands,Vondelpark Street,Amsterdam,North Holland,1071,Netherlands,14,150,"52.359298, 4.878897",28,Open
+Lisbon, Portugal,"Lisbon Downtown, Street 5",Lisbon,Lisbon,1100-044,Portugal,18,150,"38.712870, -9.139317",51,Open
+Lisbon - Belém, Portugal,Belém Street,Lisbon,Lisbon,1300-598,Portugal,12,150,"38.691162, -9.213815",12,Open
+Madrid, Spain,Madrid City Center,Madrid,Madrid,28001,Spain,24,150,"40.418197, -3.693774",662,Open
+Madrid - Retiro Park, Spain,Retiro Park Street,Madrid,Madrid,28001,Spain,16,150,"40.415644, -3.683784",6,Open
+Zurich, Switzerland,"Zurich Main Street, 12",Zurich,Zurich,8001,Switzerland,14,125,"47.371701, 8.540386",385,Open
+Zurich - Lake Zurich, Switzerland,Lake Zurich Street,Zurich,Zurich,8002,Switzerland,10,125,"47.358292, 8.542080",19,Open
+Athens, Greece,"Athens City Center, Street 8",Athens,Attica,105 63,Greece,10,150,"37.975108, 23.733299",88,Open
+Athens - Plaka, Greece,Plaka Street,Athens,Attica,105 58,Greece,12,150,"37.973784, 23.729624",7,Open
+Budapest, Hungary,Shopping Boulevard,Budapest,Central Hungary,1062,Hungary,16,150,"47.505821, 19.063430",100,Open
+Budapest - Buda Castle, Hungary,Buda Castle Street,Budapest,Central Hungary,1014,Hungary,12,150,"47.496367, 19.039648",9,Open
+Brussels, Belgium,Grand Place,Brussels,Brussels,1000,Belgium,14,150,"50.846655, 4.351696",39,Open
+Brussels - Atomium, Belgium,Atomium Street,Brussels,Brussels,1020,Belgium,12,150,"50.894906, 4.341125",6,Open
+Geneva, Switzerland,"Geneva Lakefront, Quai du Mont-Blanc",Geneva,Geneva,1201,Switzerland,20,150,"46.204456, 6.146053",373,Open
+Geneva - International Red Cross, Switzerland,Red Cross Street,Geneva,Geneva,1202,Switzerland,16,150,"46.229842, 6.140115",18,Open
+Krakow, Poland,"Krakow Market Square, 12",Krakow,Lesser Poland,31-032,Poland,12,150,"50.061496, 19.938890",210,Open
+Krakow - Wawel Castle, Poland,Wawel Castle Street,Krakow,Lesser Poland,31-001,Poland,10,150,"50.054809, 19.937745",12,Open
+Dublin, Ireland,"Dublin City Center, Street 7",Dublin,Dublin,2,Ireland,18,150,"53.346736, -6.259731",70,Open
+Dublin - Trinity College, Ireland,Trinity College Street,Dublin,Dublin,2,Ireland,16,150,"53.343871, -6.256362",7,Open
+Oslo - Opera House, Norway,"Opera House Street, Oslo",Oslo,Oslo,0150,Norway,14,150,"59.907487, 10.755080",13,Open
+Oslo - Grünerløkka, Norway,Grünerløkka Street,Oslo,Oslo,0552,Norway,14,150,"59.922635, 10.761437",28,Open
+Stockholm - Gamla Stan, Sweden,"Gamla Stan, Stockholm",Stockholm,Stockholm,111 28,Sweden,16,150,"59.325698, 18.070131",25,Open
+Stockholm - Norrmalm, Sweden,Norrmalm Street,Stockholm,,111 20,Sweden,20,150,"59.337575, 18.057427",23,Open
+Cologne, Germany,"Cologne City Center, 18",Cologne,North Rhine-Westphalia,50667,Germany,14,150,"50.941278, 6.958281",45,Open
+Cologne - Neumarkt, Germany,Neumarkt Street,Cologne,North Rhine-Westphalia,50667,Germany,12,150,"50.937670, 6.954218",16,Open
+Istanbul, Turkey,"Istanbul Center, 7",Istanbul,Istanbul,34437,Turkey,20,150,"41.005305, 28.976926",80,Open
+Istanbul - Sultanahmet, Turkey,Sultanahmet Street,Istanbul,Istanbul,34122,Turkey,18,150,"41.005676, 28.976536",11,Open
+Zagreb, Croatia,"Zagreb Central, Street 3",Zagreb,City of Zagreb,10000,Croatia,10,150,"45.812945, 15.977973",125,Open
+Zagreb - Jarun, Croatia,Jarun Street,Zagreb,City of Zagreb,10000,Croatia,12,150,"45.793586, 15.932158",8,Open
+Vienna - Schönbrunn Palace, Austria,"Schönbrunn Palace, Vienna",Vienna,Vienna,1130,Austria,16,150,"48.185711, 16.310758",277,Open
+Vienna - Belvedere Palace, Austria,Belvedere Palace Street,Vienna,Vienna,1030,Austria,14,150,"48.192208, 16.380088",9,Open
+Helsinki - Suomenlinna, Finland,"Suomenlinna Island, Helsinki",Helsinki,Uusimaa,00190,Finland,8,130,"60.138125, 24.987357",25,Open
+Helsinki - Kallio, Finland,Kallio Street,Helsinki,Uusimaa,00510,Finland,10,130,"60.187833, 24.961400",5,Open
+Prague - Charles Bridge, Czech Republic,"Charles Bridge, Prague",Prague,Prague,118 00,Czech Republic,12,150,"50.086590, 14.411174",178,Open
+Prague - Letná Park, Czech Republic,Letná Park Street,Prague,Prague,170 00,Czech Republic,14,150,"50.098819, 14.421011",5,Open
+Rome - Vatican City, Italy,"Vatican City Square, Rome",Rome,Lazio,00120,Italy,18,150,"41.902240, 12.457728",75,Open
+Rome - Piazza Navona, Italy,Piazza Navona Street,Rome,Lazio,00186,Italy,16,150,"41.899159, 12.473418",8,Open
+Amsterdam - Keukenhof Gardens, Netherlands,"Keukenhof Gardens, Lisse",Amsterdam,South Holland,2161,Netherlands,14,150,"52.268607, 4.548070",4,Open
+Amsterdam - Museumplein, Netherlands,Museumplein Street,Amsterdam,North Holland,1071,Netherlands,12,150,"52.359360, 4.884830",5,Open
