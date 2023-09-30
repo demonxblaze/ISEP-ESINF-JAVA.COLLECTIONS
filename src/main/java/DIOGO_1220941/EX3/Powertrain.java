@@ -1,4 +1,4 @@
-package DIOGO_1220941;
+package DIOGO_1220941.EX3;
 
 public class Powertrain {
     private String type;
