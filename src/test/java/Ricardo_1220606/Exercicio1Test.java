@@ -10,7 +10,7 @@ class Exercicio1Test {
     @org.junit.jupiter.api.Test
     void exercicio1() {
         Exercicio1 instance = new Exercicio1(); // Replace 'YourClass' with the name of your class that contains the exercicio1 method
-        Map<String, Set<City>> map = instance.exercicio1("project-data/carregadores_europa.csv");
+        Map<String, Set<City>> map = instance.exercicio1("src/main/java/Ricardo_1220606/exercicio1_Test3.csv");
 
         for (Map.Entry<String, Set<City>> entry : map.entrySet()) {
             System.out.println("Country: " + entry.getKey());

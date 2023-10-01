@@ -1,0 +1,33 @@
+Supercharger,StreetAddress,City,State,Zip,Country,Stalls,kW,GPS,Elevm,Status
+Rome Energy Oasis,8769 Electric Blvd,Rome,Lazio,00186,Italy,18,280,"41.902782, 12.496366",40,Open
+Shanghai Electric Plaza,5678 Voltage Street,Shanghai,,200000,China,24,350,"31.230416, 121.473701",60,Open
+Brisbane Electric Center,4321 Current Avenue,Brisbane,Queensland,4000,Australia,12,260,"-27.470125, 153.021072",30,Open
+Chicago Energy Oasis,8769 Watts Avenue,Chicago,IL,60601,USA,16,300,"41.878113, -87.629799",80,Open
+Seoul Voltage Junction,8769 Current Avenue,Seoul,Seoul,04513,South Korea,22,330,"37.566535, 126.977969",100,Open
+Lima Electric Center,4321 Watts Road,Lima,Lima,15063,Peru,20,310,"-12.046374, -77.042793",70,Open
+Rome Power Plaza,1234 Energy Street,Rome,Lazio,00187,Italy,20,320,"41.901983, 12.482594",50,Open
+Shanghai Electric Hub,1234 Watt Road,Shanghai,,200001,China,26,380,"31.232375, 121.475832",65,Open
+Brisbane Voltage Oasis,567 Ampere Avenue,Brisbane,Queensland,4001,Australia,14,240,"-27.469770, 153.022415",35,Open
+Chicago Power Junction,1234 Kilowatt Street,Chicago,IL,60602,USA,18,340,"41.882339, -87.626963",75,Open
+Seoul Electric Oasis,8769 Kilowatt Road,Seoul,Seoul,04514,South Korea,24,360,"37.565689, 126.978060",90,Open
+Lima Power Plaza,1234 Ampere Road,Lima,Lima,15064,Peru,22,350,"-12.044367, -77.043825",85,Open
+Rome Energy Oasis 2,8769 Electric Blvd,Rome,Lazio,00186,Italy,18,280,"41.902782, 12.496366",40,Open
+Shanghai Electric Plaza 2,5678 Voltage Street,Shanghai,,200000,China,24,350,"31.230416, 121.473701",60,Open
+Brisbane Electric Center 2,4321 Current Avenue,Brisbane,Queensland,4000,Australia,12,260,"-27.470125, 153.021072",30,Open
+Chicago Energy Oasis 2,8769 Watts Avenue,Chicago,IL,60601,USA,16,300,"41.878113, -87.629799",80,Open
+Seoul Voltage Junction 2,8769 Current Avenue,Seoul,Seoul,04513,South Korea,22,330,"37.566535, 126.977969",100,Open
+Lima Electric Center 2,4321 Watts Road,Lima,Lima,15063,Peru,20,310,"-12.046374, -77.042793",70,Open
+Madrid Power Hub,1234 Watt Street,Madrid,Community of Madrid,28001,Spain,18,300,"40.415363, -3.707398",55,Open
+London Electric Oasis,8769 Voltage Road,London,England,SW1A 1AA,United Kingdom,20,360,"51.503364, -0.127625",40,Open
+Berlin Charging Plaza,1234 Energy Avenue,Berlin,Berlin,10115,Germany,16,300,"52.520008, 13.404954",50,Open
+Tokyo Power Center,8769 Ampere Street,Tokyo,Tokyo,100-0001,Japan,18,320,"35.682839, 139.759455",70,Open
+New York Voltage Oasis,4321 Electron Road,New York,NY,10001,USA,30,400,"40.712776, -74.005974",80,Open
+Sydney Electric Junction,8769 Kilowatt Road,Sydney,New South Wales,2000,Australia,16,280,"-33.868820, 151.209295",60,Open
+São Paulo Power Plaza 2,1234 Kilowatt Street,São Paulo,São Paulo,01001-000,Brazil,22,340,"-23.550520, -46.633308",90,Open
+Paris Electric Oasis,8769 Ampere Road,Paris,Île-de-France,75000,France,26,380,"48.856613, 2.352222",55,Open
+Mumbai Voltage Junction,8769 Current Road,Mumbai,Maharashtra,400001,India,20,320,"19.076090, 72.877426",75,Open
+Los Angeles Power Plaza,1234 Electron Street,Los Angeles,CA,90001,USA,24,350,"34.052235, -118.243683",100,Open
+Sydney Charging Center 2,4321 Power Road,Sydney,New South Wales,2001,Australia,16,280,"-33.869889, 151.211029",70,Open
+Beijing Electric Hub,1234 Watt Avenue,Beijing,,100000,China,28,400,"39.904200, 116.407396",60,Open
+Moscow Power Oasis,8769 Kilowatt Avenue,Moscow,Moscow,101000,Russia,18,300,"55.755826, 37.617300",65,Open
+Toronto Voltage Junction,4321 Electron Avenue,Toronto,ON,M5E 1E6,Canada,20,360,"43.653225, -79.383186",80,Open

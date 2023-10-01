@@ -1,0 +1,49 @@
+Supercharger,StreetAddress,City,State,Zip,Country,Stalls,kW,GPS,Elevm,Status
+Los Angeles Charging Center,1234 Charging Blvd,Los Angeles,CA,90001,USA,24,350,"34.052235, -118.243683",100,Open
+Los Angeles Electric Hub,567 Ampere Street,Los Angeles,CA,90002,USA,18,320,"34.056628, -118.242621",80,Open
+Berlin Charging Hub,1234 Power Street,Berlin,Berlin,10115,Germany,16,300,"52.520008, 13.404954",50,Open
+Berlin Electric Plaza,567 Voltage Lane,Berlin,Berlin,10116,Germany,20,360,"52.521735, 13.406604",70,Open
+Tokyo Power Hub,1234 Amp Road,Tokyo,Tokyo,100-0001,Japan,18,320,"35.682839, 139.759455",70,Open
+Tokyo Electric Station,567 Kilowatt Avenue,Tokyo,Tokyo,100-0002,Japan,24,380,"35.685206, 139.760066",90,Open
+New York Power Hub,5678 Energy Way,New York,NY,10001,USA,30,400,"40.712776, -74.005974",80,Open
+New York Electric Plaza,4321 Energy Street,New York,NY,10002,USA,22,360,"40.713956, -74.009577",75,Open
+Sydney Power Plaza,123 Charging Road,Sydney,New South Wales,2000,Australia,16,280,"-33.868820, 151.209295",60,Open
+Sydney Electric Center,4321 Electron Street,Sydney,New South Wales,2001,Australia,20,320,"-33.869889, 151.211029",70,Open
+São Paulo Charging Plaza,1234 Electric Avenue,São Paulo,São Paulo,01001-000,Brazil,22,340,"-23.550520, -46.633308",90,Open
+São Paulo Electric Center,4321 Kilowatt Street,São Paulo,São Paulo,01001-001,Brazil,26,380,"-23.550919, -46.633636",80,Open
+London Electric Station,567 Voltage Lane,London,England,SW1A 1AA,United Kingdom,20,360,"51.503364, -0.127625",40,Open
+London Power Plaza,4321 Power Road,London,England,SW1A 1AB,United Kingdom,24,400,"51.503580, -0.128094",70,Open
+Paris Power Hub,1234 Energy Boulevard,Paris,Île-de-France,75000,France,26,380,"48.856613, 2.352222",55,Open
+Paris Electric Plaza,4321 Ampere Road,Paris,Île-de-France,75001,France,28,420,"48.857035, 2.353129",65,Open
+Mumbai Charging Center,1234 Electron Road,Mumbai,Maharashtra,400001,India,20,320,"19.076090, 72.877426",75,Open
+Mumbai Electric Hub,5678 Watt Avenue,Mumbai,Maharashtra,400002,India,22,340,"19.076432, 72.876572",85,Open
+Shanghai Power Plaza,1234 Ampere Street,Shanghai,Shanghai,200000,China,24,350,"31.230416, 121.473701",60,Open
+Shanghai Electric Center,4321 Power Avenue,Shanghai,Shanghai,200001,China,28,370,"31.230754, 121.474189",70,Open
+Moscow Charging Hub,1234 Kilowatt Avenue,Moscow,Moscow,101000,Russia,18,300,"55.755826, 37.617300",65,Open
+Moscow Electric Plaza,4321 Volt Road,Moscow,Moscow,101001,Russia,22,340,"55.755966, 37.616522",75,Open
+Buenos Aires Voltage Junction,1234 Voltage Road,Buenos Aires,,C1007AAQ,Argentina,22,330,"-34.606509, -58.427235",100,Open
+Buenos Aires Electric Oasis,5678 Power Street,Buenos Aires,,C1007AAR,Argentina,24,350,"-34.606134, -58.427926",80,Open
+Berlin Charging Plaza 2,1234 Current Street,Berlin,Berlin,10117,Germany,20,340,"52.522279, 13.407455",70,Open
+Berlin Electric Oasis 2,5678 Power Road,Berlin,Berlin,10118,Germany,22,360,"52.523748, 13.408267",90,Open
+Tokyo Voltage Point 2,1234 Electron Road,Tokyo,Tokyo,100-0003,Japan,18,320,"35.685580, 139.760750",70,Open
+Tokyo Electric Oasis 2,5678 Power Street,Tokyo,Tokyo,100-0004,Japan,20,340,"35.686961, 139.761556",90,Open
+New York Voltage Junction 2,1234 Electron Avenue,New York,NY,10003,USA,16,300,"40.714520, -74.009315",80,Open
+New York Electric Plaza 2,5678 Kilowatt Boulevard,New York,NY,10004,USA,18,320,"40.715901, -74.010112",70,Open
+Sydney Charging Hub 2,1234 Power Avenue,Sydney,New South Wales,2002,Australia,14,280,"-33.870201, 151.212163",60,Open
+Sydney Electric Oasis 2,5678 Energy Boulevard,Sydney,New South Wales,2003,Australia,16,300,"-33.870604, 151.213101",50,Open
+São Paulo Voltage Plaza 2,1234 Watt Avenue,São Paulo,São Paulo,01001-002,Brazil,20,340,"-23.551318, -46.634008",90,Open
+São Paulo Electric Oasis 2,5678 Ampere Boulevard,São Paulo,São Paulo,01001-003,Brazil,22,360,"-23.551697, -46.634327",80,Open
+London Charging Center 2,1234 Voltage Street,London,England,SW1A 1AC,United Kingdom,18,320,"51.503801, -0.128569",70,Open
+London Electric Plaza 2,5678 Power Avenue,London,England,SW1A 1AD,United Kingdom,20,340,"51.503972, -0.129110",60,Open
+Paris Voltage Plaza 2,1234 Kilowatt Street,Paris,Île-de-France,75002,France,22,360,"48.857288, 2.354147",80,Open
+Paris Electric Oasis 2,5678 Electron Road,Paris,Île-de-France,75003,France,24,380,"48.857442, 2.355058",70,Open
+Mumbai Charging Plaza 2,1234 Power Boulevard,Mumbai,Maharashtra,400003,India,16,300,"19.077230, 72.878074",60,Open
+Mumbai Electric Oasis 2,5678 Current Street,Mumbai,Maharashtra,400004,India,18,320,"19.077552, 72.877196",50,Open
+Shanghai Voltage Junction 2,1234 Voltage Avenue,Shanghai,Shanghai,200002,China,20,340,"31.231163, 121.474674",70,Open
+Shanghai Electric Plaza 2,5678 Energy Road,Shanghai,Shanghai,200003,China,22,360,"31.231404, 121.475057",60,Open
+Moscow Power Hub 2,1234 Electric Boulevard,Moscow,Moscow,101002,Russia,18,300,"55.755409, 37.615773",80,Open
+Moscow Electric Oasis 2,5678 Power Street,Moscow,Moscow,101003,Russia,20,320,"55.755240, 37.614974",70,Open
+Seoul Charging Center 2,1234 Current Road,Seoul,Seoul,04515,South Korea,16,280,"37.564626, 126.977489",60,Open
+Seoul Electric Plaza 2,5678 Energy Avenue,Seoul,Seoul,04516,South Korea,18,300,"37.563680, 126.977190",50,Open
+Lima Voltage Plaza 2,1234 Ampere Street,Lima,Lima,15063,Peru,20,340,"-12.044817, -77.045072",70,Open
+Lima Electric Oasis 2,5678 Current Boulevard,Lima,Lima,15064,Peru,22,360,"-12.044482, -77.045812",60,Open
