@@ -58,4 +58,24 @@ public interface FileScanner {
 
         return countryCityList;
     }
+
+    static List<String[]> coutryKwList(String fileName) {
+
+        List<String[]> lines = lerCSV(fileName);
+
+        List<String[]> countryCityList = new ArrayList<>();
+
+        for (String[] s : lines) {
+            String country = s[5];
+            String kw = s[7];
+
+            String[] countryKw = new String[2];
+            countryKw[0] = country;
+            countryKw[1] = kw;
+
+            countryCityList.add(countryKw);
+        }
+
+        return countryCityList;
+    }
 }

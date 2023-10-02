@@ -1,38 +1,40 @@
 package Ricardo_1220606;
 
+import java.util.Objects;
+
 public class CarregadoresPais {
-    private String city;
-    private int kWAcima;
-    private int kWAbaixo;
+    private String country;
+    private int numKwAcima;
+    private int numKwAbaixo;
     private int total;
 
     public CarregadoresPais(String pais) {
-        this.city = pais;
-        this.kWAcima = 0;
-        this.kWAbaixo = 0;
+        this.country = pais;
+        this.numKwAcima = 0;
+        this.numKwAbaixo = 0;
         this.total = 0;
     }
 
-    public void addAcima(int kWAcima) {
-        this.kWAcima += kWAcima;
-        this.total += kWAcima;
+    public void addAcima() {
+        this.numKwAcima++;
+        this.total ++;
     }
 
-    public void addAbaixo(int kWAbaixo) {
-        this.kWAbaixo += kWAbaixo;
-        this.total += kWAbaixo;
+    public void addAbaixo() {
+        this.numKwAbaixo++;
+        this.total ++;
     }
 
     public String getPais() {
-        return city;
+        return country;
     }
 
-    public int getkWAcima() {
-        return kWAcima;
+    public int getNumKwAcima() {
+        return numKwAcima;
     }
 
-    public int getkWAbaixo() {
-        return kWAbaixo;
+    public int getNumKwAbaixo() {
+        return numKwAbaixo;
     }
 
     public int getTotal() {
@@ -40,15 +42,19 @@ public class CarregadoresPais {
     }
 
     @Override
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass()) return false;
-        CarregadoresPais that = (CarregadoresPais) o;
-        return city.equals(that.city);
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null || getClass() != obj.getClass()) {
+            return false;
+        }
+        CarregadoresPais other = (CarregadoresPais) obj;
+        return Objects.equals(country, other.country);
     }
 
     @Override
     public int hashCode() {
-        return city.hashCode();
+        return Objects.hash(country);
     }
 }

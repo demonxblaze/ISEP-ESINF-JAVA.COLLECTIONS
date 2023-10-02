@@ -1,0 +1,74 @@
+Supercharger,StreetAddress,City,State,Zip,Country,Stalls,kW,GPS,Elevm,Status
+New York Charging Center 1,1234 Electric Street,New York,NY,10001,USA,30,400,"40.712776, -74.005974",100,Open
+Los Angeles Power Plaza 1,5678 Voltage Road,Los Angeles,CA,90001,USA,32,420,"34.052235, -118.243683",110,Open
+Chicago Voltage Oasis 1,9876 Power Avenue,Chicago,IL,60601,USA,28,380,"41.878113, -87.629799",90,Open
+San Francisco Electric Junction 1,8769 Current Boulevard,San Francisco,CA,94101,USA,34,440,"37.774929, -122.419416",120,Open
+London Charging Plaza 1,4321 Kilowatt Road,London,,SW1A 1AA,United Kingdom,36,460,"51.507351, -0.127758",130,Open
+Paris Power Hub 1,789 Ampere Avenue,Paris,,75001,France,38,480,"48.856613, 2.352222",140,Open
+Sydney Voltage Center 1,1234 Electron Street,Sydney,New South Wales,2000,Australia,40,500,"-33.868820, 151.209295",150,Open
+Berlin Electric Plaza 1,9876 Power Boulevard,Berlin,,10115,Germany,42,520,"52.520008, 13.404954",160,Open
+Tokyo Charging Oasis 1,5678 Watt Road,Tokyo,,100-8994,Japan,44,540,"35.682839, 139.759455",170,Open
+Dubai Power Plaza 1,8769 Energy Avenue,Dubai,,12345,United Arab Emirates,46,560,"25.276987, 55.296249",180,Open
+Madrid Voltage Plaza 1,4321 Power Road,Madrid,Madrid,28001,Spain,48,580,"40.416775, -3.703790",190,Open
+Singapore Electric Center 1,789 Current Street,Singapore,Singapore,098761,Singapore,50,600,"1.280814, 103.843877",200,Open
+Mexico City Power Oasis 1,1234 Current Avenue,Mexico City,Mexico City,06000,Mexico,52,620,"19.432608, -99.133209",210,Open
+Toronto Charging Center 1,5678 Ampere Road,Toronto,ON,M5H 2N6,Canada,54,640,"43.653225, -79.383186",220,Open
+Buenos Aires Voltage Hub 1,9876 Kilowatt Street,Buenos Aires,,C1002AAP,Argentina,56,660,"-34.611318, -58.379044",230,Open
+Perth Electric Plaza 1,8769 Voltage Boulevard,Perth,Western Australia,6000,Australia,58,680,"-31.950527, 115.857179",240,Open
+New Delhi Power Center 1,4321 Power Street,New Delhi,,110001,India,60,700,"28.613939, 77.209021",250,Open
+Rio de Janeiro Voltage Oasis 1,1234 Electron Avenue,Rio de Janeiro,,20000-000,Brazil,62,720,"-22.908333, -43.196388",260,Open
+Shanghai Charging Plaza 1,789 Watt Road,Shanghai,,200000,China,64,740,"31.230416, 121.473701",270,Open
+Moscow Electric Hub 1,5678 Energy Street,Moscow,,101000,Russia,66,760,"55.755825, 37.617313",280,Open
+Cape Town Power Plaza 1,8769 Current Boulevard,Cape Town,,8000,South Africa,68,780,"-33.918861, 18.423300",290,Open
+Rio de Janeiro Voltage Oasis 2,1234 Current Road,Rio de Janeiro,,20000-001,Brazil,70,800,"-22.908888, -43.196944",300,Open
+Sydney Electric Center 2,4321 Kilowatt Avenue,Sydney,New South Wales,2001,Australia,72,820,"-33.869553, 151.209834",310,Open
+New Delhi Charging Plaza 2,789 Electron Road,New Delhi,,110002,India,74,840,"28.614898, 77.209198",320,Open
+Mumbai Charging Center 2,5678 Electric Street,Mumbai,,400001,India,76,860,"19.076191, 72.875877",330,Open
+Toronto Voltage Oasis 2,8769 Power Boulevard,Toronto,ON,M5H 2N7,Canada,78,880,"43.654775, -79.378168",340,Open
+New York Electric Plaza 2,1234 Current Avenue,New York,NY,10002,USA,80,900,"40.713054, -74.007228",350,Open
+Los Angeles Power Plaza 2,789 Power Road,Los Angeles,CA,90002,USA,82,920,"34.053683, -118.242766",360,Open
+Chicago Voltage Center 2,4321 Kilowatt Street,Chicago,IL,60602,USA,84,940,"41.878113, -87.629799",90,Open
+San Francisco Electric Oasis 2,9876 Current Boulevard,San Francisco,CA,94102,USA,86,960,"37.775980, -122.419581",100,Open
+London Charging Hub 2,5678 Power Street,London,,SW1A 1AB,United Kingdom,88,980,"51.507419, -0.127547",110,Open
+Paris Power Oasis 2,8769 Watt Road,Paris,,75002,France,90,1000,"48.856721, 2.352218",120,Open
+Sydney Voltage Plaza 2,1234 Electron Avenue,Sydney,New South Wales,2002,Australia,92,1020,"-33.870845, 151.209421",130,Open
+Berlin Charging Center 2,4321 Current Boulevard,Berlin,,10116,Germany,94,1040,"52.520249, 13.404690",140,Open
+Tokyo Electric Center 2,789 Current Road,Tokyo,,100-8995,Japan,96,1060,"35.682839, 139.759455",150,Open
+Singapore Charging Center 2,4321 Power Road,Singapore,Singapore,098762,Singapore,36,140,"1.281647, 103.843387",100,Open
+Dubai Voltage Oasis 2,1234 Current Street,Dubai,,12346,United Arab Emirates,38,145,"25.276856, 55.295666",105,Open
+Mumbai Power Plaza 2,789 Power Boulevard,Mumbai,,400002,India,40,140,"19.075984, 72.874433",95,Open
+Istanbul Electric Center 2,5678 Energy Road,Istanbul,,34000,Turkey,42,135,"41.008237, 28.978359",90,Open
+Barcelona Charging Plaza 2,8769 Voltage Street,Barcelona,,08001,Spain,44,140,"41.382893, 2.177432",100,Open
+Rome Voltage Plaza 2,4321 Electron Boulevard,Rome,,00118,Italy,46,135,"41.893173, 12.485264",95,Open
+Paris Charging Oasis 2,1234 Power Road,Paris,,75003,France,48,140,"48.859005, 2.358738",105,Open
+Munich Electric Hub 2,789 Kilowatt Street,Munich,,80331,Germany,50,140,"48.136727, 11.572886",100,Open
+Beijing Power Plaza 2,5678 Power Avenue,Beijing,,100000,China,52,140,"39.904200, 116.407396",95,Open
+Sydney Charging Center 3,4321 Energy Road,Sydney,New South Wales,2003,Australia,54,140,"-33.871345, 151.208189",105,Open
+Toronto Voltage Oasis 3,8769 Power Boulevard,Toronto,ON,M5H 2N8,Canada,56,140,"43.654130, -79.383173",100,Open
+Buenos Aires Electric Plaza 3,1234 Current Street,Buenos Aires,,C1002AAV,Argentina,58,140,"-34.610842, -58.380325",95,Open
+Perth Charging Plaza 3,789 Electron Road,Perth,Western Australia,6003,Australia,60,140,"-31.950527, 115.857179",105,Open
+New York Electric Center 3,5678 Voltage Avenue,New York,NY,10003,USA,62,140,"40.713236, -74.005792",100,Open
+Los Angeles Power Oasis 3,1234 Power Road,Los Angeles,CA,90003,USA,64,140,"34.052225, -118.243683",95,Open
+Chicago Voltage Plaza 3,4321 Current Boulevard,Chicago,IL,60603,USA,66,140,"41.878443, -87.628901",100,Open
+San Francisco Charging Center 3,789 Current Avenue,San Francisco,CA,94103,USA,68,140,"37.774747, -122.419583",105,Open
+London Electric Oasis 3,8769 Energy Road,London,,SW1A 1AC,United Kingdom,70,140,"51.507708, -0.127472",100,Open
+Paris Charging Hub 3,5678 Electron Street,Paris,,75004,France,72,140,"48.860209, 2.352998",95,Open
+Sydney Voltage Oasis 4,4321 Kilowatt Road,Sydney,New South Wales,2004,Australia,74,140,"-33.872805, 151.208637",105,Open
+New Delhi Electric Plaza 4,789 Current Avenue,New Delhi,,110004,India,76,140,"28.615064, 77.208772",100,Open
+Rome Voltage Center 4,1234 Energy Road,Rome,,00119,Italy,78,140,"41.893657, 12.484409",95,Open
+Istanbul Power Plaza 4,5678 Electron Boulevard,Istanbul,,34001,Turkey,80,140,"41.009780, 28.978401",100,Open
+Munich Charging Oasis 4,8769 Current Road,Munich,,80333,Germany,82,140,"48.137256, 11.570667",105,Open
+Barcelona Voltage Center 4,4321 Power Street,Barcelona,,08002,Spain,84,140,"41.383087, 2.178320",100,Open
+Los Angeles Charging Plaza 4,789 Ampere Road,Los Angeles,CA,90004,USA,86,140,"34.052258, -118.243635",95,Open
+New York Voltage Oasis 4,1234 Power Avenue,New York,NY,10004,USA,88,140,"40.713156, -74.007400",105,Open
+Chicago Electric Hub 4,5678 Current Boulevard,Chicago,IL,60604,USA,90,140,"41.878195, -87.628806",100,Open
+San Francisco Charging Plaza 4,8769 Power Street,San Francisco,CA,94104,USA,92,140,"37.774841, -122.419526",95,Open
+London Voltage Plaza 4,4321 Voltage Avenue,London,,SW1A 1AD,United Kingdom,94,140,"51.507487, -0.127316",100,Open
+Paris Electric Oasis 4,789 Current Street,Paris,,75005,France,96,140,"48.861726, 2.352882",105,Open
+Sydney Charging Hub 4,1234 Power Road,Sydney,New South Wales,2005,Australia,98,140,"-33.873223, 151.208712",100,Open
+Tokyo Voltage Center 4,5678 Ampere Road,Tokyo,,100-8996,Japan,100,140,"35.682839, 139.759455",95,Open
+Dubai Power Plaza 3,8769 Kilowatt Avenue,Dubai,,12347,United Arab Emirates,102,140,"25.276715, 55.294331",100,Open
+Mumbai Voltage Oasis 3,1234 Energy Street,Mumbai,,400003,India,106,140,"19.074758, 72.873303",95,Open
+Istanbul Charging Center 3,4321 Power Boulevard,Istanbul,,34002,Turkey,110,140,"41.008906, 28.978571",100,Open
+Hong Kong Electric Oasis 3,5678 Current Street,Hong Kong,,999078,Hong Kong,114,140,"22.318919, 114.171601",105,Open
+

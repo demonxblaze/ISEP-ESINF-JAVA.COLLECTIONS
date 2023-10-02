@@ -1,36 +1,36 @@
 Supercharger,StreetAddress,City,State,Zip,Country,Stalls,kW,GPS,Elevm,Status
 Madrid Electric Center 9,9876 Electron Road,Madrid,Madrid,28009,Spain,36,480,"40.417769, -3.698446",140,Open
-Singapore Voltage Point 9,789 Current Boulevard,Singapore,098345,Singapore,42,500,"1.277639, 103.850501",160,Open
+Singapore Voltage Point 9,789 Current Boulevard,Singapore,Singapore,098345,Singapore,42,500,"1.277639, 103.850501",160,Open
 Mexico City Electric Plaza 9,5678 Ampere Road,Mexico City,Mexico City,06008,Mexico,36,500,"19.429619, -99.126619",150,Open
 Toronto Charging Center 9,8769 Power Road,Toronto,ON,M5H 2N0,Canada,32,460,"43.652731, -79.350813",160,Open
 Buenos Aires Power Oasis 8,1234 Energy Boulevard,Buenos Aires,,C1007AAL,Argentina,30,440,"-34.608722, -58.422896",130,Open
 Perth Voltage Plaza 6,4321 Kilowatt Avenue,Perth,Western Australia,6008,Australia,24,400,"-31.948366, 115.857409",110,Open
 Madrid Electric Hub 10,9876 Power Avenue,Madrid,Madrid,28010,Spain,38,520,"40.418024, -3.697911",150,Open
-Singapore Power Plaza 10,789 Ampere Road,Singapore,098346,Singapore,44,540,"1.277784, 103.850970",170,Open
+Singapore Power Plaza 10,789 Ampere Road,Singapore,Singapore,098346,Singapore,44,540,"1.277784, 103.850970",170,Open
 Mexico City Voltage Center 10,5678 Voltage Avenue,Mexico City,Mexico City,06009,Mexico,40,540,"19.429253, -99.125933",160,Open
 Toronto Electric Junction 10,8769 Current Street,Toronto,ON,M5H 2N1,Canada,36,500,"43.653035, -79.351299",170,Open
 Buenos Aires Charging Plaza 9,1234 Power Road,Buenos Aires,,C1007AAM,Argentina,34,480,"-34.608355, -58.423608",140,Open
 Perth Power Junction 7,4321 Electron Street,Perth,Western Australia,6009,Australia,28,460,"-31.948065, 115.857038",100,Open
 Madrid Electric Oasis 11,9876 Power Boulevard,Madrid,Madrid,28011,Spain,40,560,"40.418277, -3.697376",170,Open
-Singapore Voltage Point 11,789 Watt Street,Singapore,098347,Singapore,46,580,"1.277917, 103.851441",180,Open
+Singapore Voltage Point 11,789 Watt Street,Singapore,Singapore,098347,Singapore,46,580,"1.277917, 103.851441",180,Open
 Mexico City Charging Plaza 11,5678 Current Boulevard,Mexico City,Mexico City,06010,Mexico,42,580,"19.428887, -99.125246",170,Open
 Toronto Voltage Oasis 11,8769 Ampere Avenue,Toronto,ON,M5H 2N2,Canada,38,520,"43.653343, -79.351787",180,Open
 Buenos Aires Power Plaza 10,1234 Ampere Street,Buenos Aires,,C1007AAN,Argentina,36,560,"-34.607986, -58.424328",150,Open
 Perth Electric Center 8,4321 Kilowatt Road,Perth,Western Australia,6010,Australia,30,500,"-31.947763, 115.856656",130,Open
 Madrid Power Oasis 12,9876 Voltage Street,Madrid,Madrid,28012,Spain,44,600,"40.418508, -3.696843",190,Open
-Singapore Electric Plaza 12,789 Current Avenue,Singapore,098348,Singapore,48,620,"1.278051, 103.851913",200,Open
+Singapore Electric Plaza 12,789 Current Avenue,Singapore,Singapore,098348,Singapore,48,620,"1.278051, 103.851913",200,Open
 Mexico City Charging Center 12,5678 Ampere Street,Mexico City,Mexico City,06011,Mexico,44,620,"19.428521, -99.124559",190,Open
 Toronto Voltage Center 12,8769 Power Street,Toronto,ON,M5H 2N3,Canada,40,560,"43.653660, -79.352278",200,Open
 Buenos Aires Electric Hub 11,1234 Energy Avenue,Buenos Aires,,C1007AAO,Argentina,38,540,"-34.607616, -58.425044",170,Open
 Perth Power Plaza 9,4321 Electron Boulevard,Perth,Western Australia,6011,Australia,32,520,"-31.947458, 115.856290",140,Open
 Madrid Voltage Junction 13,9876 Current Avenue,Madrid,Madrid,28013,Spain,48,640,"40.418738, -3.696312",190,Open
-Singapore Electric Oasis 13,789 Ampere Boulevard,Singapore,098349,Singapore,50,660,"1.278189, 103.852367",210,Open
+Singapore Electric Oasis 13,789 Ampere Boulevard,Singapore,Singapore,098349,Singapore,50,660,"1.278189, 103.852367",210,Open
 Mexico City Power Plaza 13,5678 Voltage Road,Mexico City,Mexico City,06012,Mexico,46,660,"19.428152, -99.123873",200,Open
 Toronto Charging Hub 13,8769 Current Boulevard,Toronto,ON,M5H 2N4,Canada,42,600,"43.653978, -79.352772",210,Open
 Buenos Aires Voltage Oasis 12,1234 Current Road,Buenos Aires,,C1007AAP,Argentina,40,580,"-34.607246, -58.425770",180,Open
 Perth Electric Oasis 10,4321 Current Boulevard,Perth,Western Australia,6012,Australia,34,540,"-31.947157, 115.855918",150,Open
 Madrid Power Center 14,9876 Kilowatt Street,Madrid,Madrid,28014,Spain,52,680,"40.418975, -3.695784",200,Open
-Singapore Voltage Plaza 14,789 Power Road,Singapore,098350,Singapore,52,700,"1.278329, 103.852806",220,Open
+Singapore Voltage Plaza 14,789 Power Road,Singapore,Singapore,098350,Singapore,52,700,"1.278329, 103.852806",220,Open
 Mexico City Electric Oasis 14,5678 Electron Street,Mexico City,Mexico City,06013,Mexico,50,700,"19.427784, -99.123187",210,Open
 Toronto Electric Plaza 14,8769 Energy Boulevard,Toronto,ON,M5H 2N5,Canada,46,640,"43.654309, -79.353273",220,Open
 Buenos Aires Charging Oasis 13,1234 Power Street,Buenos Aires,,C1007AAQ,Argentina,44,600,"-34.606878, -58.426512",190,Open
