@@ -12,11 +12,11 @@ public class Exercicio1 {
     public Map<String, Set<City>> exercicio1(String fileName){
         Map<String, Set<City>> map = new HashMap<>();
 
-        List<String[]> lines = FileScanner.lerCSV(fileName);
+        List<String[]> lines = FileScanner.coutryCityList(fileName);
 
         for (String[] s : lines) {
-            String country = s[5];
-            String city = s[2];
+            String country = s[0];
+            String city = s[1];
 
 
             Set<City> cities = map.getOrDefault(country, new HashSet<>());
