@@ -1,12 +1,10 @@
 package Ricardo_1220606;
 
-import Scanners.FileScanner;
-
 import java.util.*;
 
-public class Exercicio2 {
+public class Exercicio4 {
 
-    public Set<CarregadoresPais> exercicio2(String fileName){
+    public Set<CarregadoresPais> exercicio4(String fileName){
         Set<CarregadoresPais> dadosPorPais = new TreeSet<>(new TotalComparator());
 
         return dadosPorPais;
