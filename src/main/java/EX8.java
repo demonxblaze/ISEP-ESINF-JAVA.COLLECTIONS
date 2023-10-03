@@ -26,10 +26,16 @@ public class EX8 {
             for (State st : states) {
                 if (st.getName().equals(state)) {
                     stateFound = true;
+                    boolean cityFound = false;
                     for (City c : st.getCities()) {
                         if (c.getName().equals(city)) {
                             c.setPower(power, stalls);
+                            cityFound = true;
                         }
+                    }
+                    if (!cityFound){
+                        City ct = new City(city, stalls, power);
+                        st.getCities().add(ct);
                     }
                 }
             }
@@ -51,7 +57,7 @@ public class EX8 {
 
     public static Object[] findTheTop(String filename, int n, Set<String> set) {
         Map<String, Set<State>>powerPerCountry = EX8.cityPowerCounter(filename);
-        Set<State> topStates = new TreeSet<>();
+        Set<State> topStates = new HashSet<>();
         int power = 0;
         Set<String> cities = new TreeSet<>();
 
@@ -62,7 +68,30 @@ public class EX8 {
                 //verifica se o pais pertence ao input
                 if (set.contains(entry.getKey())){
                     //itera cada estado do pais
-                    power = getPower(n, topStates, power, entry);
+                    for (State st : entry.getValue()) {
+                        int statePower = 0;
+                        for (City c : st.getCities()) {
+                            statePower += c.getPower();
+                        }
+                        st.setStatePower(statePower);
+                        if (topStates.size() < n) {
+                            power+= statePower;
+                            topStates.add(st);
+                        } else {
+                            State lesspower = new State("null", null);
+                            for (State sta : topStates) {
+                                if (lesspower.getStatePower() > sta.getStatePower()) {
+                                    lesspower = sta;
+                                }
+                            }
+                            if (statePower > lesspower.getStatePower()) {
+                                topStates.remove(lesspower);
+                                power+= statePower;
+                                topStates.add(st);
+                            }
+                        }
+
+                    }
 
                 }
             }
@@ -71,9 +100,32 @@ public class EX8 {
         } else {
             for (Map.Entry<String, Set<State>> entry : powerPerCountry.entrySet()) {
 
-                if (entry.getValue().containsAll(set)){
 
-                    power = getPower(n, topStates, power, entry);
+                for (State st : entry.getValue()) {
+                    if (set.contains(st.getName())){
+                        int statePower = 0;
+                        for (City c : st.getCities()) {
+                            statePower += c.getPower();
+                        }
+                        st.setStatePower(statePower);
+                        if (topStates.size() < n) {
+                            power+= statePower;
+                            topStates.add(st);
+                        } else {
+                            State lesspower = new State("null", null);
+                            for (State sta : topStates) {
+                                if (lesspower.getStatePower() > sta.getStatePower()) {
+                                    lesspower = sta;
+                                }
+                            }
+                            if (statePower > lesspower.getStatePower()) {
+                                topStates.remove(lesspower);
+                                power+= statePower;
+                                topStates.add(st);
+                            }
+                        }
+
+                    }
 
                 }
             }
@@ -90,31 +142,5 @@ public class EX8 {
         return new Object[]{topStatesString, power, cities};
     }
 
-    private static int getPower(int n, Set<State> topStates, int power, Map.Entry<String, Set<State>> entry) {
-        for (State st : entry.getValue()) {
-            int statePower = 0;
-            for (City c : st.getCities()) {
-                statePower += c.getPower();
-            }
-            st.setStatePower(statePower);
-            if (topStates.size() < n) {
-                power+= statePower;
-                topStates.add(st);
-            } else {
-                State lesspower = new State("null", null);
-                for (State sta : topStates) {
-                    if (lesspower.getStatePower() > sta.getStatePower()) {
-                        lesspower = sta;
-                    }
-                }
-                if (statePower > lesspower.getStatePower()) {
-                    topStates.remove(lesspower);
-                    power+= statePower;
-                    topStates.add(st);
-                }
-            }
 
-        }
-        return power;
-    }
 }
