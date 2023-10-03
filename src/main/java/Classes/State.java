@@ -1,6 +1,6 @@
 package Classes;
 
-import EX8.City;
+import Classes.City;
 
 import java.util.Set;
 
@@ -8,11 +8,11 @@ public class State {
 
     private String name;
 
-    private Set<EX8.City> cities;
+    private Set<City> cities;
 
     private int statePower;
 
-    public State(String name, Set<EX8.City> cities) {
+    public State(String name, Set<City> cities) {
         this.name = name;
         this.cities = cities;
         statePower=0;
@@ -34,7 +34,7 @@ public class State {
         this.name = name;
     }
 
-    public Set<EX8.City> getCities() {
+    public Set<City> getCities() {
         return cities;
     }
 

@@ -27,7 +27,6 @@ public class EX8 {
             for (City c : cities) {
                 if (c.getName().equals(city)) {
                     c.setPower(kw,stalls);
-                    c.setNumberChargers(c.getNumberChargers() + 1);
                     cityFound = true;
                 }
             }
@@ -43,6 +42,23 @@ public class EX8 {
     }
 
     public static Object[] findTheTop(String filename, int n, Set<String> set) {
+        Map<String, Set<City>> map= cityPowerCounter(filename);
+
+
+        //Verifica se é uma lista de paises
+        if (map.keySet().containsAll(set)){
+
+
+            for(Map.Entry<String,Set<City>> entry : map.entrySet() ) {
+                Set<City> entryCities = entry.getValue();
+
+            }
+
+
+        //Senão é uma lista de estados
+        }else{
+
+        }
         return null;
     }
 
