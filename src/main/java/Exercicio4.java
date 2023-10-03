@@ -6,7 +6,7 @@ import java.util.*;
 
 public class Exercicio4 {
 
-    public Set<CarregadoresPais> exercicio4(String fileName) {
+    public Set<CarregadoresPais> exercicio4(String fileName, int valorKw) {
         Map<String, CarregadoresPais> countryMap = new HashMap<>();
         List<String[]> lines = FileScanner.coutryKwList(fileName);
 
@@ -21,7 +21,7 @@ public class Exercicio4 {
                 countryMap.put(country, carregadoresPais);
             }
 
-            if (kW > 150) {
+            if (kW > valorKw) {
                 carregadoresPais.addAcima();
             } else {
                 carregadoresPais.addAbaixo();
@@ -37,7 +37,7 @@ public class Exercicio4 {
         return dadosPorPais;
     }
 
-//    public Set<CarregadoresPais> exercicio4(String fileName){
+//    public Set<CarregadoresPais> exercicio4(String fileName, int valorKw){
 //        Set<CarregadoresPais> dadosPorPais = new TreeSet<>(new TotalComparator());
 //
 //        List<String[]> lines = FileScanner.coutryKwList(fileName);
@@ -49,7 +49,7 @@ public class Exercicio4 {
 //            if (dadosPorPais.contains(new CarregadoresPais(country))) {
 //                for (CarregadoresPais c : dadosPorPais) {
 //                    if (c.equals(new CarregadoresPais(country))) {
-//                        if (kW > 150) {
+//                        if (kW > valorKw) {
 //                            c.addAcima();
 //                        } else {
 //                            c.addAbaixo();
@@ -58,7 +58,7 @@ public class Exercicio4 {
 //                }
 //            } else {
 //                CarregadoresPais c = new CarregadoresPais(country);
-//                if (kW > 150) {
+//                if (kW > valorKw) {
 //                    c.addAcima();
 //                } else {
 //                    c.addAbaixo();

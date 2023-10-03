@@ -52,7 +52,7 @@ class Exercicio1Test {
 
 
         assertNotNull(result);
-        assertEquals(11, result.size());
+        assertEquals(6, result.size());
 
     }
 

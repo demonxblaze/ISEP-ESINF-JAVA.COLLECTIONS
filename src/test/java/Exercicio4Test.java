@@ -11,7 +11,7 @@ class Exercicio4Test {
 
         String fileName = "project-data/carregadores_europa.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
 
         System.out.printf("%-15s %-12s %-10s %s%n", "", "kW > 150", "kW <= 150", "Total");
 
