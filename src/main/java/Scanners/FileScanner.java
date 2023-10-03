@@ -37,6 +37,8 @@ public interface FileScanner {
         }
 
         return lines;
+
+        
     }
 
     static List<String[]> coutryCityList(String fileName) {
@@ -78,4 +80,30 @@ public interface FileScanner {
 
         return countryCityList;
     }
+
+    static List<String[]> getCountryChargerList(String filename){
+
+        List<String[]> lines = lerCSV(filename);
+
+        List<String[]> countryChargerList = new ArrayList<>();
+
+        for (String[] s : lines) {
+            String country = s[5];
+            String charger = s[3];
+            String gps = s[8];
+
+            String[] countryCharger = new String[3];
+            countryCharger[0] = country;
+            countryCharger[1] = charger;
+            countryCharger[2] = gps;
+
+            countryChargerList.add(countryCharger);
+        }
+
+
+        return countryChargerList;
+    }
+
 }
+
+
