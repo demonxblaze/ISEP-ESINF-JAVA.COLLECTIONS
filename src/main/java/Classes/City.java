@@ -28,6 +28,12 @@ public class City {
     public City(String name, Integer numberChargers) {
         setName(name);
         setNumberChargers(numberChargers);
+        setPower(0,0);
+    }
+    public City(String name, String state, int stalls, int kw) {
+        setName(name);
+        setNumberChargers(numberChargers);
+        setPower(kw,stalls);
     }
 
     /**
@@ -60,5 +66,12 @@ public class City {
      */
     public void setNumberChargers(Integer numberChargers) {
         this.numberChargers = numberChargers;
+    }
+    public Integer getPower() {
+        return power;
+    }
+
+    public void setPower(Integer power, Integer stalls) {
+        this.power += power * stalls;
     }
 }
