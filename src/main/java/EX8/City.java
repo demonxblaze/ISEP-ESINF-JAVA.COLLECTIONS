@@ -7,7 +7,7 @@ public class City {
      */
     private String name;
 
-    private Integer power;
+    private int power;
 
     public City(String name, Integer stalls, Integer power) {
         setName(name);

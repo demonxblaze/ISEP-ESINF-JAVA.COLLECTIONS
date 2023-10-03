@@ -103,7 +103,31 @@ public interface FileScanner {
 
         return countryChargerList;
     }
+    static List<String[]> coutryStateCityPower(String fileName) {
 
+        List<String[]> lines = lerCSV(fileName);
+
+        List<String[]> countryCityList = new ArrayList<>();
+
+        for (String[] s : lines) {
+            String city = s[2];
+            String state = s[3];
+            String country = s[5];
+            String stalls = s[6];
+            String kw = s[7];
+
+            String[] charger = new String[5];
+            charger[0] = city;
+            charger[1] = state;
+            charger[2] = country;
+            charger[3] = stalls;
+            charger[4] = kw;
+
+            countryCityList.add(charger);
+        }
+
+        return countryCityList;
+    }
 }
 
 

@@ -4,7 +4,7 @@ import java.util.Set;
 public class temp {
 
     public static void main(String[] args) {
-        String filename = "exercicio8_Test1.csv";
+        String filename = "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\src\\main\\java\\DIOGO_1220941\\EX8\\exercicio8_Test1.csv";
         int n = 1;
         Set<String> estados = new HashSet<>();
         estados.add("Porto");
