@@ -32,7 +32,7 @@ class Exercicio1Test {
     @org.junit.jupiter.api.Test
     void exercicio1_Print() {
         Exercicio1 instance = new Exercicio1(); // Replace 'YourClass' with the name of your class that contains the exercicio1 method
-        Map<String, Set<City>> map = instance.exercicio1("project-data/ex1 test files/exercicio1_Test3.csv");
+        Map<String, Set<City>> map = instance.exercicio1("project-data/ex1 test files/exercicio1_Test4.csv");
 
         for (Map.Entry<String, Set<City>> entry : map.entrySet()) {
             System.out.println("Country: " + entry.getKey());
@@ -221,41 +221,81 @@ class Exercicio1Test {
         }
     }
 
-
-
-    @org.junit.jupiter.api.Test
-    public void exercicio1_Ficheiro4_Test1() {
+    @Test
+    public void exercicio1_Ficheiro4_CheckResults() {
         Exercicio1 exercicio1 = new Exercicio1();
 
         String fileName = "project-data/ex1 test files/exercicio1_Test4.csv";
 
         Map<String, Set<City>> result = exercicio1.exercicio1(fileName);
-
 
         assertNotNull(result);
-        assertEquals(12, result.size());
+        assertEquals(17, result.size());
 
-    }
+        Map<String, Integer> expectedCityCounts = new HashMap<>();
+        expectedCityCounts.put("USA", 7);
+        expectedCityCounts.put("Argentina", 1);
+        expectedCityCounts.put("Singapore", 1);
+        expectedCityCounts.put("Japan", 1);
+        expectedCityCounts.put("United Kingdom", 1);
+        expectedCityCounts.put("United Arab Emirates", 1);
+        expectedCityCounts.put("India", 2);
+        expectedCityCounts.put("Russia", 1);
+        expectedCityCounts.put("Canada", 1);
+        expectedCityCounts.put("Ireland", 1);
+        expectedCityCounts.put("China", 1);
+        expectedCityCounts.put("Brazil", 1);
+        expectedCityCounts.put("Mexico", 1);
+        expectedCityCounts.put("South Africa", 1);
+        expectedCityCounts.put("Australia", 2);
+        expectedCityCounts.put("France", 1);
+        expectedCityCounts.put("Germany", 1);
 
-    @Test
-    public void exercicio1_Ficheiro4_Test2() {
-        Exercicio1 exercicio1 = new Exercicio1();
 
-        String fileName = "project-data/ex1 test files/exercicio1_Test4.csv";
+        Map<String, Integer> expectedChargerCounts = new HashMap<>();
+        expectedChargerCounts.put("New York", 1);
+        expectedChargerCounts.put("Los Angeles", 1);
+        expectedChargerCounts.put("Denver", 1);
+        expectedChargerCounts.put("Miami", 1);
+        expectedChargerCounts.put("San Francisco", 1);
+        expectedChargerCounts.put("Chicago", 1);
+        expectedChargerCounts.put("Seattle", 1);
+        expectedChargerCounts.put("Buenos Aires", 1);
+        expectedChargerCounts.put("Singapore", 2);
+        expectedChargerCounts.put("Tokyo", 2);
+        expectedChargerCounts.put("London", 1);
+        expectedChargerCounts.put("Dubai", 1);
+        expectedChargerCounts.put("New Delhi", 2);
+        expectedChargerCounts.put("Mumbai", 2);
+        expectedChargerCounts.put("Moscow", 1);
+        expectedChargerCounts.put("Toronto", 2);
+        expectedChargerCounts.put("Dublin", 1);
+        expectedChargerCounts.put("Shanghai", 1);
+        expectedChargerCounts.put("Rio de Janeiro", 2);
+        expectedChargerCounts.put("Mexico City", 1);
+        expectedChargerCounts.put("Cape Town", 1);
+        expectedChargerCounts.put("Sydney", 3);
+        expectedChargerCounts.put("Perth", 1);
+        expectedChargerCounts.put("Paris", 2);
+        expectedChargerCounts.put("Berlin", 2);
 
-        Map<String, Set<City>> result = exercicio1.exercicio1(fileName);
+
+        for (Map.Entry<String, Set<City>> entry : result.entrySet()) {
+            String country = entry.getKey();
+            Set<City> cities = entry.getValue();
+
+            if (expectedCityCounts.containsKey(country)) {
+                int expectedCityCount = expectedCityCounts.get(country);
+                assertEquals(expectedCityCount, cities.size());
+            }
 
 
-        Set<City> cities = result.get("Canada");
-        City toronto = null;
-        for (City city : cities) {
-            if (city.getName().equals("Toronto")) {
-                toronto = city;
+            for (City city : cities) {
+                if (expectedChargerCounts.containsKey(city.getName())) {
+                    int expectedChargerCount = expectedChargerCounts.get(city.getName());
+                    assertEquals(expectedChargerCount, city.getNumberChargers());
+                }
             }
         }
-        assertNotNull(toronto);
-        assertEquals(8, toronto.getNumberChargers());
-
     }
-
 }
