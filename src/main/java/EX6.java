@@ -28,15 +28,48 @@ public class EX6 {
 
     public TreeSet<POI> exercicio6(POI[] pois, Charger[] chargers){
 
-        /*for (:
-             ) {
-            
-        }*/
+        POI temp = null;
+        double minDist;
 
-        throw new UnsupportedOperationException();
+        for (Charger c : chargers) {
+            minDist = Double.MAX_VALUE;
+            for (POI p : pois) {
+                if (getDistance(c.getGps(), p.getGps()) < minDist) {
+                    minDist = getDistance(c.getGps(), p.getGps());
+                    temp = p;
+                }
+            }
 
+            try {
 
+                temp.addCharger(c);
+
+            } catch (NullPointerException e) {
+                System.out.println("Não foram definidos POI's");
+            }
+        }
+
+        for (POI p : pois) {
+            System.out.println(p.getChargersNumber());
+
+        }
+
+        TreeSet<POI> treeSet = new TreeSet<>(new Comparator<POI>() {
+            @Override
+            public int compare(POI o1, POI o2) {
+                return o2.getChargersNumber() - o1.getChargersNumber();
+            }
+
+            @Override
+            public boolean equals(Object obj) {
+                return false;
+            }
+        });
+
+        treeSet.addAll(Arrays.asList(pois));
+
+        return treeSet;
     }
-
-
 }
+
+

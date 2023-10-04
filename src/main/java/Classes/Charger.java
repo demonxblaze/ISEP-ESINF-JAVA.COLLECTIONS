@@ -38,4 +38,10 @@ public class Charger {
         return gps;
     }
 
+    @Override
+    public String toString() {
+        return "Charger{" +
+                "supercharger='" + supercharger + '\'' +
+                '}';
+    }
 }
