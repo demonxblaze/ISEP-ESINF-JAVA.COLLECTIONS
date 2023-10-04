@@ -71,7 +71,7 @@ class Exercicio4Test {
     public void exercicio4_Test1_Print(){
         Exercicio4 exercicio4 = new Exercicio4();
 
-        String fileName = "project-data/ex 4 test files/exercicio4_Test4.csv";
+        String fileName = "project-data/ex 4 test files/exercicio4_Test1.csv";
 
         Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
 
