@@ -28,7 +28,6 @@ public class City {
     public City(String name, Integer numberChargers) {
         setName(name);
         setNumberChargers(numberChargers);
-        setPower(0,0);
     }
     public City(String name, String state, int stalls, int kw) {
         setName(name);
