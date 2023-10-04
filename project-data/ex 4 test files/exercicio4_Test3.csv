@@ -1,0 +1,19 @@
+Supercharger,StreetAddress,City,State,Zip,Country,Stalls,kW,GPS,Elevm,Status
+New York Charging Center,1234 Electric Street,New York,NY,10001,USA,30,400,"40.712776, -74.005974",100,Open
+Los Angeles Charging Center,1234 Electric Street,Los Angeles,CA,90001,USA,30,400,"34.052234, -118.243685",100,Open
+Chicago Charging Center,1234 Electric Street,Chicago,IL,60007,USA,30,400,"41.878114, -87.629798",100,Open
+Miami Charging Center,1234 Electric Street,Miami,FL,33101,USA,30,400,"25.761680, -80.191790",100,Open
+Dallas Charging Center,1234 Electric Street,Dallas,TX,75201,USA,30,400,"32.776664, -96.796988",100,Open
+Washington DC Charging Center,1234 Electric Street,Washington,DC,20001,USA,30,400,"38.907192, -77.036871",100,Open
+San Francisco Charging Center,1234 Electric Street,San Francisco,CA,94101,USA,30,400,"37.774929, -122.419416",100,Open
+Seattle Charging Center,1234 Electric Street,Seattle,WA,98101,USA,30,400,"47.606209, -122.332071",100,Open
+Boston Charging Center,1234 Electric Street,Boston,MA,02101,USA,30,400,"42.360082, -71.058880",100,Open
+San Diego Charging Center,1234 Electric Street,San Diego,CA,92101,USA,30,400,"32.715738, -117.161084",100,Open
+Phoenix Charging Center,1234 Electric Street,Phoenix,AZ,85001,USA,30,400,"33.448377, -112.074037",100,Open
+Las Vegas Charging Center,1234 Electric Street,Las Vegas,NV,89101,USA,30,400,"36.169941, -115.139830",100,Open
+Denver Charging Center,1234 Electric Street,Denver,CO,80201,USA,30,400,"39.739236, -104.990251",100,Open
+Atlanta Charging Center,1234 Electric Street,Atlanta,GA,30301,USA,30,400,"33.748995, -84.387982",100,Open
+Houston Charging Center,1234 Electric Street,Houston,TX,77001,USA,30,400,"29.760427, -95.369803",100,Open
+Detroit Charging Center,1234 Electric Street,Detroit,MI,48201,USA,30,400,"42.331427, -83.045754",100,Open
+Philadelphia Charging Center,1234 Electric Street,Philadelphia,PA,19019,USA,30,400,"39.952584, -75.165222",100,Open
+Minneapolis Charging Center,1234 Electric Street,Minneapolis,MN,55401,USA,30,400,"44.977753, -93.265011",100,Open
