@@ -11,13 +11,13 @@ public class City {
      * City name
      */
     private String name;
-    private Integer power=0;
+    private Integer power = 0;
     private String state;
 
     /**
      * Number of chargers
      */
-    private Integer numberChargers=0;
+    private Integer numberChargers = 0;
 
 
     /**
@@ -29,6 +29,13 @@ public class City {
         setName(name);
         setNumberChargers(numberChargers);
     }
+
+    /**
+     * Constructor
+     * @param name city name
+     * @param stalls number of stalls
+     * @param kw power of chargers
+     */
     public City(String name, int stalls, int kw) {
         setName(name);
         setNumberChargers(numberChargers+stalls);
@@ -66,10 +73,20 @@ public class City {
     public void setNumberChargers(Integer numberChargers) {
         this.numberChargers = numberChargers;
     }
+
+    /**
+     * Getter
+     * @return power of chargers
+     */
     public Integer getPower() {
         return power;
     }
 
+    /**
+     * Setter
+     * @param power power of chargers
+     * @param stalls number of stalls
+     */
     public void setPower(Integer power, Integer stalls) {
         this.power += power * stalls;
     }
