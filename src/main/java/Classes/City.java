@@ -11,13 +11,13 @@ public class City {
      * City name
      */
     private String name;
-    private Integer power;
+    private Integer power=0;
     private String state;
 
     /**
      * Number of chargers
      */
-    private Integer numberChargers;
+    private Integer numberChargers=0;
 
 
     /**
@@ -29,9 +29,9 @@ public class City {
         setName(name);
         setNumberChargers(numberChargers);
     }
-    public City(String name, String state, int stalls, int kw) {
+    public City(String name, int stalls, int kw) {
         setName(name);
-        setNumberChargers(numberChargers);
+        setNumberChargers(numberChargers+stalls);
         setPower(kw,stalls);
     }
 
