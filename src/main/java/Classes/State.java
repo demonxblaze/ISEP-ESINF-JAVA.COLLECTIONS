@@ -2,22 +2,26 @@ package Classes;
 
 import Classes.City;
 
+import java.util.Comparator;
 import java.util.Set;
+import java.util.TreeSet;
 
-public class State {
+public class State implements Comparable {
 
     private String name;
 
-    private Set<City> cities;
+    private Set<String> cities;
 
     private int statePower;
 
-    public State(String name, Set<City> cities) {
+    public State(String name,int power) {
         this.name = name;
-        this.cities = cities;
-        statePower=0;
+        this.cities = new TreeSet<>();
+        statePower=power;
     }
-
+    public void addStatePower(int power) {
+        this.statePower += power;
+    }
     public int getStatePower() {
         return statePower;
     }
@@ -34,11 +38,11 @@ public class State {
         this.name = name;
     }
 
-    public Set<City> getCities() {
+    public Set<String> getCities() {
         return cities;
     }
 
-    public void setCities(Set<City> cities) {
+    public void setCities(Set<String> cities) {
         this.cities = cities;
     }
 
@@ -46,11 +50,24 @@ public class State {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof State state)) return false;
-        return name.equals(state.name) ;
+        return name.equals(state.getName());
     }
 
     @Override
     public int hashCode() {
         return name.hashCode();
+    }
+
+    @Override
+    public int compareTo(Object o) {
+        if ((statePower <= ((State) o).getStatePower())) {
+            return -1;
+        } else {
+            return 1;
+        }
+    }
+
+    public void addCities(String city) {
+        cities.add(city);
     }
 }

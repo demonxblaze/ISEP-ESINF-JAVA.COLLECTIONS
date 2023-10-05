@@ -115,13 +115,15 @@ public interface FileScanner {
             String country = s[5];
             String stalls = s[6];
             String kw = s[7];
+            String status = s[10];
 
-            String[] charger = new String[5];
+            String[] charger = new String[6];
             charger[0] = city;
             charger[1] = state;
             charger[2] = country;
             charger[3] = stalls;
             charger[4] = kw;
+            charger[5] = status;
 
             countryCityList.add(charger);
         }
