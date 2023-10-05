@@ -1,5 +1,6 @@
 import Classes.ParAnos;
 import Classes.Powertrain;
+import Scanners.FileScanner;
 
 import java.util.*;
 
@@ -7,8 +8,11 @@ public class EX3 {
     private static final String BEV = "BEV";
     private static final String PHEV = "PHEV";
 
+    public EX3() {
+    }
 
-    public static Map<String, Map<Integer, Set<Powertrain>>> getSales(List<String[]> list) {
+    private Map<String, Map<Integer, Set<Powertrain>>> getSales(String filename) {
+        List<String[]> list = FileScanner.lerCSV(filename);
         Map<String, Map<Integer, Set<Powertrain>>> mapList = new HashMap<>();
 
         for (String[] row : list) {
@@ -27,7 +31,8 @@ public class EX3 {
         return mapList;
     }
 
-    public static Map<String, Set<ParAnos>> getSalesData(Map<String, Map<Integer, Set<Powertrain>>> mapList ) {
+    public Map<String, Set<ParAnos>> getSalesData(String filename) {
+        Map<String, Map<Integer, Set<Powertrain>>> mapList= getSales(filename);
 
         Map<String, Set<ParAnos>> result = new TreeMap<>();
 
