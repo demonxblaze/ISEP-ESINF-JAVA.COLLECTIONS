@@ -4,9 +4,9 @@ import Scanners.FileScanner;
 
 import java.util.*;
 
-public class Exercicio4 {
+public class EX4 {
 
-    public Set<CarregadoresPais> exercicio4(String fileName, int valorKw) {
+    public Set<CarregadoresPais> getChargerPerCountryFromKW(String fileName, int valorKw) {
         Map<String, CarregadoresPais> countryMap = new HashMap<>();
         List<String[]> lines = FileScanner.coutryKwList(fileName);
 

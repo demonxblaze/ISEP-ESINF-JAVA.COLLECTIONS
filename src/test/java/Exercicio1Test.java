@@ -11,9 +11,9 @@ class Exercicio1Test {
 
     @Test
     public void testExercicio1WithNonexistentFile() {
-        Exercicio1 exercicio1 = new Exercicio1();
+        EX1 exercicio1 = new EX1();
         String fileName = "nonexistent.csv";
-        Map<String, Set<City>> result = exercicio1.exercicio1(fileName);
+        Map<String, Set<City>> result = exercicio1.getChargerCityPerCountry(fileName);
 
         assertNotNull(result);
         assertTrue(result.isEmpty());
@@ -21,9 +21,9 @@ class Exercicio1Test {
 
     @Test
     public void testExercicio1WithEmptyFile() {
-        Exercicio1 exercicio1 = new Exercicio1();
+        EX1 exercicio1 = new EX1();
         String fileName = "src/main/java/Ricardo_1220606/empty.csv";
-        Map<String, Set<City>> result = exercicio1.exercicio1(fileName);
+        Map<String, Set<City>> result = exercicio1.getChargerCityPerCountry(fileName);
 
         assertNotNull(result);
         assertTrue(result.isEmpty());
@@ -31,8 +31,8 @@ class Exercicio1Test {
 
     @org.junit.jupiter.api.Test
     void exercicio1_Print() {
-        Exercicio1 instance = new Exercicio1(); // Replace 'YourClass' with the name of your class that contains the exercicio1 method
-        Map<String, Set<City>> map = instance.exercicio1("project-data/ex1 test files/exercicio1_Test4.csv");
+        EX1 instance = new EX1(); // Replace 'YourClass' with the name of your class that contains the exercicio1 method
+        Map<String, Set<City>> map = instance.getChargerCityPerCountry("project-data/ex1 test files/exercicio1_Test4.csv");
 
         for (Map.Entry<String, Set<City>> entry : map.entrySet()) {
             System.out.println("Country: " + entry.getKey());
@@ -45,11 +45,11 @@ class Exercicio1Test {
 
     @org.junit.jupiter.api.Test
     public void exercicio1_Ficheiro1_CheckResults() {
-        Exercicio1 exercicio1 = new Exercicio1();
+        EX1 exercicio1 = new EX1();
 
         String fileName = "project-data/ex1 test files/exercicio1_Test1.csv";
 
-        Map<String, Set<City>> result = exercicio1.exercicio1(fileName);
+        Map<String, Set<City>> result = exercicio1.getChargerCityPerCountry(fileName);
 
         assertNotNull(result);
         assertEquals(6, result.size());
@@ -93,11 +93,11 @@ class Exercicio1Test {
 
     @Test
     public void exercicio1_Ficheiro2_CheckResults() {
-        Exercicio1 exercicio1 = new Exercicio1();
+        EX1 exercicio1 = new EX1();
 
         String fileName = "project-data/ex1 test files/exercicio1_Test2.csv";
 
-        Map<String, Set<City>> result = exercicio1.exercicio1(fileName);
+        Map<String, Set<City>> result = exercicio1.getChargerCityPerCountry(fileName);
 
         assertNotNull(result);
         assertEquals(13, result.size());
@@ -155,11 +155,11 @@ class Exercicio1Test {
 
     @Test
     public void exercicio1_Ficheiro3_CheckResults() {
-        Exercicio1 exercicio1 = new Exercicio1();
+        EX1 exercicio1 = new EX1();
 
         String fileName = "project-data/ex1 test files/exercicio1_Test3.csv";
 
-        Map<String, Set<City>> result = exercicio1.exercicio1(fileName);
+        Map<String, Set<City>> result = exercicio1.getChargerCityPerCountry(fileName);
 
         assertNotNull(result);
         assertEquals(15, result.size());
@@ -223,11 +223,11 @@ class Exercicio1Test {
 
     @Test
     public void exercicio1_Ficheiro4_CheckResults() {
-        Exercicio1 exercicio1 = new Exercicio1();
+        EX1 exercicio1 = new EX1();
 
         String fileName = "project-data/ex1 test files/exercicio1_Test4.csv";
 
-        Map<String, Set<City>> result = exercicio1.exercicio1(fileName);
+        Map<String, Set<City>> result = exercicio1.getChargerCityPerCountry(fileName);
 
         assertNotNull(result);
         assertEquals(17, result.size());

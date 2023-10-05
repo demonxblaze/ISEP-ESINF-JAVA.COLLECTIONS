@@ -1,5 +1,4 @@
 import Classes.CarregadoresPais;
-import com.sun.source.tree.AssertTree;
 import org.junit.jupiter.api.Test;
 
 import java.util.HashMap;
@@ -12,11 +11,11 @@ class Exercicio4Test {
 
     @Test
     public void exercicio4_Print() {
-        Exercicio4 exercicio4 = new Exercicio4();
+        EX4 exercicio4 = new EX4();
 
         String fileName = "project-data/carregadores_europa.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
 
         System.out.printf("%-15s %-12s %-10s %s%n", "", "kW > 150", "kW <= 150", "Total");
 
@@ -33,11 +32,11 @@ class Exercicio4Test {
 
     @Test
     public void exercicio4_CheckGermanyExists(){
-        Exercicio4 exercicio4 = new Exercicio4();
+        EX4 exercicio4 = new EX4();
 
         String fileName = "project-data/carregadores_europa.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
 
         for (CarregadoresPais carregador : dadosPorPais) {
             if (carregador.getPais().equals("Germany")) {
@@ -49,11 +48,11 @@ class Exercicio4Test {
 
     @Test
     void exercicio4_TestGermany() {
-        Exercicio4 exercicio4 = new Exercicio4();
+        EX4 exercicio4 = new EX4();
 
         String fileName = "project-data/carregadores_europa.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
 
         for (CarregadoresPais carregador : dadosPorPais) {
             String country = carregador.getPais();
@@ -72,11 +71,11 @@ class Exercicio4Test {
 
     @Test
     public void exercicio4_Test1_Print(){
-        Exercicio4 exercicio4 = new Exercicio4();
+        EX4 exercicio4 = new EX4();
 
         String fileName = "project-data/ex 4 test files/exercicio4_Test4.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
 
         System.out.printf("%-15s %-12s %-10s %s%n", "", "kW > 150", "kW <= 150", "Total");
 
@@ -93,11 +92,11 @@ class Exercicio4Test {
 
     @Test
     public void exercicio4_Test1_CheckCountries() {
-        Exercicio4 exercicio4 = new Exercicio4();
+        EX4 exercicio4 = new EX4();
 
         String fileName = "project-data/ex 4 test files/exercicio4_Test1.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
 
 
         Map<String, Integer[]> expectedValues = new HashMap<>();
@@ -139,11 +138,11 @@ class Exercicio4Test {
 
     @Test
     public void exercicio4_Test2_CheckCountries() {
-        Exercicio4 exercicio4 = new Exercicio4();
+        EX4 exercicio4 = new EX4();
 
         String fileName = "project-data/ex 4 test files/exercicio4_Test2.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
 
         Map<String, Integer[]> expectedValues = new HashMap<>();
         expectedValues.put("USA", new Integer[] { 9, 0, 9 });
@@ -182,11 +181,11 @@ class Exercicio4Test {
 
     @Test
     public void exercicio4_Test3_CheckCountries() {
-        Exercicio4 exercicio4 = new Exercicio4();
+        EX4 exercicio4 = new EX4();
 
         String fileName = "project-data/ex 4 test files/exercicio4_Test3.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
 
 
         Map<String, Integer[]> expectedValues = new HashMap<>();
@@ -210,11 +209,11 @@ class Exercicio4Test {
 
     @Test
     public void exercicio4_Test4_CheckCountries() {
-        Exercicio4 exercicio4 = new Exercicio4();
+        EX4 exercicio4 = new EX4();
 
         String fileName = "project-data/ex 4 test files/exercicio4_Test4.csv";
 
-        Set<CarregadoresPais> dadosPorPais = exercicio4.exercicio4(fileName, 150);
+        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
 
 
         Map<String, Integer[]> expectedValues = new HashMap<>();
