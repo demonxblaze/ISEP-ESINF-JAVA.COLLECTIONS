@@ -35,5 +35,5 @@ public class EX2 {
         }
         return evolutationRateByCounty;
     }
+}
 
-    }
