@@ -28,12 +28,11 @@ public class Exercicio4 {
             }
         }
 
-        // Create a TreeSet with your TotalComparator
+
         Set<CarregadoresPais> dadosPorPais = new TreeSet<>(new TotalComparator());
 
-        // Add the CarregadoresPais objects to the TreeSet
-        dadosPorPais.addAll(countryMap.values());
 
+        dadosPorPais.addAll(countryMap.values());
         return dadosPorPais;
     }
 

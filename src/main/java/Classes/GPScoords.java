@@ -1,36 +1,37 @@
 package Classes;
 
+
 public class GPScoords {
 
-    private int x; //latitude
+    private double x; //latitude
 
-    private int y; //longitude
+    private double y; //longitude
 
     public GPScoords(String coords) {
-        int [] coordenadas = stringToIntGps(coords);
+        double [] coordenadas = stringToIntGps(coords);
         setX(coordenadas[0]);
         setY(coordenadas[1]);
     }
 
-    public void setX(int x) {
+    public void setX(double x) {
         this.x = x;
     }
 
-    public int getX() {
+    public double getX() {
         return x;
     }
 
-    public void setY(int y) {
+    public void setY(double y) {
         this.y = y;
     }
 
-    public int getY() {
+    public double getY() {
         return y;
     }
 
-    public int [] stringToIntGps(String gps){
+    public double [] stringToIntGps(String gps){
         String [] coordenadas = gps.split(", ");
-        return new int [] {Integer.parseInt(coordenadas[0]),Integer.parseInt(coordenadas[1])};
+        return new double [] {Double.parseDouble(coordenadas[0]),Double.parseDouble(coordenadas[1])};
     }
 
 }

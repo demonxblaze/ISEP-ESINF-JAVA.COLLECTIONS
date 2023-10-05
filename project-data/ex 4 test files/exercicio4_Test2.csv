@@ -1,0 +1,30 @@
+Supercharger,StreetAddress,City,State,Zip,Country,Stalls,kW,GPS,Elevm,Status
+Atlanta Charging Center,1234 Battery Street,Atlanta,GA,30301,USA,22,350,"33.749179, -84.388292",80,Open
+Dallas Power Plaza,5678 Energy Road,Dallas,TX,75201,USA,20,400,"32.776272, -96.796484",70,Open
+Miami Voltage Oasis,9876 Spark Boulevard,Miami,FL,33101,USA,24,420,"25.761679, -80.191790",90,Open
+Houston Electric Junction,8769 Power Avenue,Houston,TX,77001,USA,18,380,"29.760427, -95.369804",60,Open
+Seattle Charging Plaza,4321 Voltage Road,Seattle,WA,98101,USA,26,450,"47.606209, -122.332069",100,Open
+Vancouver Power Hub,789 Energy Avenue,Vancouver,BC,V6C 1A1,Canada,28,470,"49.282730, -123.120735",110,Open
+Mexico City Electric Center,1234 Ampere Street,Mexico City,Mexico City,06001,Mexico,30,500,"19.433651, -99.133994",120,Open
+Buenos Aires Voltage Plaza,5678 Current Road,Buenos Aires,,C1002AAB,Argentina,32,520,"-34.609013, -58.384893",130,Open
+Johannesburg Charging Plaza,8769 Electron Boulevard,Johannesburg,,2000,South Africa,34,550,"-26.204103, 28.047305",140,Open
+Delhi Electric Plaza,4321 Kilowatt Avenue,Delhi,,110001,India,36,580,"28.613895, 77.209006",150,Open
+Shanghai Power Oasis,789 Power Avenue,Shanghai,,200000,China,38,600,"31.230416, 121.473701",160,Open
+Moscow Voltage Center,1234 Electric Boulevard,Moscow,,101000,Russia,40,620,"55.755825, 37.617313",170,Open
+Cape Town Electric Hub,5678 Current Street,Cape Town,,8000,South Africa,42,640,"-33.918861, 18.423300",180,Open
+Sydney Charging Plaza,8769 Kilowatt Road,Sydney,New South Wales,2000,Australia,44,660,"-33.868820, 151.209295",190,Open
+Berlin Power Plaza,4321 Energy Avenue,Berlin,,10115,Germany,46,680,"52.520008, 13.404954",200,Open
+Tokyo Voltage Oasis,789 Watt Street,Tokyo,,100-8994,Japan,48,700,"35.682839, 139.759455",210,Open
+Dubai Charging Center,1234 Electron Road,Dubai,,12345,United Arab Emirates,50,720,"25.276987, 55.296249",220,Open
+Madrid Power Plaza,5678 Current Avenue,Madrid,Madrid,28001,Spain,52,740,"40.416775, -3.703790",230,Open
+Singapore Electric Junction,8769 Voltage Boulevard,Singapore,Singapore,098761,Singapore,54,760,"1.280814, 103.843877",240,Open
+London Voltage Center,4321 Power Road,London,,SW1A 1AA,United Kingdom,56,780,"51.507351, -0.127758",250,Open
+Paris Electric Oasis,789 Ampere Road,Paris,,75001,France,58,800,"48.856613, 2.352222",260,Open
+Rome Charging Plaza,1234 Voltage Street,Rome,,00118,Italy,60,820,"41.893173, 12.485264",270,Open
+Istanbul Power Hub,5678 Energy Boulevard,Istanbul,,34000,Turkey,62,840,"41.008237, 28.978359",280,Open
+Barcelona Electric Center,8769 Current Street,Barcelona,,08001,Spain,64,860,"41.382893, 2.177432",290,Open
+Mumbai Voltage Plaza,4321 Electron Avenue,Mumbai,,400001,India,66,880,"19.076191, 72.875877",300,Open
+New York Electric Junction,789 Current Road,New York,NY,10001,USA,68,900,"40.712776, -74.005974",310,Open
+Los Angeles Charging Oasis,1234 Power Boulevard,Los Angeles,CA,90001,USA,70,920,"34.052235, -118.243683",320,Open
+Chicago Charging Plaza,5678 Kilowatt Avenue,Chicago,IL,60601,USA,72,940,"41.878113, -87.629799",330,Open
+San Francisco Voltage Center,8769 Energy Street,San Francisco,CA,94101,USA,74,960,"37.774929, -122.419416",340,Open

@@ -6,7 +6,7 @@ import Classes.GPScoords;
 import java.util.ArrayList;
 import java.util.List;
 
-public class POI {
+public class POI implements Comparable<POI>{
 
     private GPScoords gps;
 
@@ -24,6 +24,10 @@ public class POI {
         this.gps = gps;
     }
 
+    public GPScoords getGps() {
+        return gps;
+    }
+
     public void setName(String name) {
         this.name = name;
     }
@@ -32,7 +36,27 @@ public class POI {
         return chargers;
     }
 
+    public int getChargersNumber(){
+        return chargers.size();
+    }
+
     public void addCharger(Charger charger){
         chargers.add(charger);
+
     }
+
+    @Override
+    public String toString() {
+        return "POI{" +
+                "name='" + name + '\'' +
+                ", chargers=" + chargers +
+                '}';
+    }
+
+    @Override
+    public int compareTo(POI o) {
+        return this.getChargersNumber() - o.getChargersNumber();
+    }
+
+
 }

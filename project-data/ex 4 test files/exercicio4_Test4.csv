@@ -1,0 +1,16 @@
+Supercharger,StreetAddress,City,State,Zip,Country,Stalls,kW,GPS,Elevm,Status
+Santo Domingo Charging Center,1234 Voltage Road,Santo Domingo,,10801,Dominican Republic,30,234,"18.486057, -69.931211",100,Open
+Panama City Power Oasis,5678 Power Avenue,Panama City,,0843-0312,Panama,32,195,"8.982379, -79.519869",110,Open
+San Juan Voltage Plaza,8769 Energy Street,San Juan,PR,00901,Puerto Rico,28,285,"18.466333, -66.105721",90,Open
+Port-au-Prince Electric Center,4321 Current Street,Port-au-Prince,,6110,Haiti,34,405,"18.594857, -72.306711",120,Open
+Kingston Charging Plaza,1234 Power Road,Kingston,,KGN 0001,Jamaica,36,220,"17.969228, -76.792210",130,Open
+Santo Domingo Charging Center,1234 Voltage Road,Santo Domingo,,10801,Dominican Republic,30,200,"18.486057, -69.931211",100,Open
+Panama City Power Oasis,5678 Power Avenue,Panama City,,0843-0312,Panama,32,285,"8.982379, -79.519869",110,Open
+San Juan Voltage Plaza,8769 Energy Street,San Juan,PR,00901,Puerto Rico,28,390,"18.466333, -66.105721",90,Open
+Port-au-Prince Electric Center,4321 Current Street,Port-au-Prince,,6110,Haiti,34,265,"18.594857, -72.306711",120,Open
+Kingston Charging Plaza,1234 Power Road,Kingston,,KGN 0001,Jamaica,36,355,"17.969228, -76.792210",130,Open
+Santo Domingo Charging Center,1234 Voltage Road,Santo Domingo,,10801,Dominican Republic,30,150,"18.486057, -69.931211",100,Open
+Panama City Power Oasis,5678 Power Avenue,Panama City,,0843-0312,Panama,32,320,"8.982379, -79.519869",110,Open
+San Juan Voltage Plaza,8769 Energy Street,San Juan,PR,00901,Puerto Rico,28,260,"18.466333, -66.105721",90,Open
+Port-au-Prince Electric Center,4321 Current Street,Port-au-Prince,,6110,Haiti,34,370,"18.594857, -72.306711",120,Open
+Kingston Charging Plaza,1234 Power Road,Kingston,,KGN 0001,Jamaica,36,185,"17.969228, -76.792210",130,Open
