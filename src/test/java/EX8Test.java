@@ -12,7 +12,7 @@ class EX8Test {
    //teste lista de estados onde no top existem estados com capacidade igual
     @Test
     void findTheTop1() {
-        String fileName= "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 8 test files\\exercicio8_Test1.csv";
+        String fileName= "project-data/ex 8 test files/exercicio8_Test1.csv";
         Set<String> estadosAvaliados= new TreeSet<>();
         estadosAvaliados.add("Beja");
         estadosAvaliados.add("Aveiro");
@@ -40,7 +40,7 @@ class EX8Test {
     //sendo que nesta situação, é devolvido o ultimo deles que aparecer no ficheiro de entrada
     @Test
     void findTheTop2() {
-        String fileName= "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 8 test files\\exercicio8_Test1.csv";
+        String fileName= "project-data/ex 8 test files/exercicio8_Test1.csv";
         Set<String> estadosAvaliados= new TreeSet<>();
         estadosAvaliados.add("Beja");
         estadosAvaliados.add("Aveiro");
@@ -64,7 +64,7 @@ class EX8Test {
     //o numero de estados pedidos para o top ser maior do que os existentes
     @Test
     void findTheTop3() {
-        String fileName= "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 8 test files\\exercicio8_Test1.csv";
+        String fileName= "project-data/ex 8 test files/exercicio8_Test1.csv";
         Set<String> estadosAvaliados= new TreeSet<>();
         estadosAvaliados.add("Beja");
         estadosAvaliados.add("Aveiro");
@@ -102,7 +102,7 @@ class EX8Test {
     // apenas entram para a equação os postos com o status a "Open"
     @Test
     void findTheTop4() {
-        String fileName= "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 8 test files\\exercicio8_Test2.csv";
+        String fileName= "project-data/ex 8 test files/exercicio8_Test2.csv";
         Set<String> estadosAvaliados= new TreeSet<>();
         estadosAvaliados.add("Beja");
         estadosAvaliados.add("Aveiro");
@@ -138,7 +138,7 @@ class EX8Test {
     //sendo que nesta situação, é devolvido o ultimo deles que aparecer no ficheiro de entrada
     @Test
     void findTheTop5() {
-        String fileName= "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 8 test files\\exercicio8_Test3.csv";
+        String fileName= "project-data/ex 8 test files/exercicio8_Test3.csv";
         Set<String> paisesAvaliados= new TreeSet<>();
         paisesAvaliados.add("Portugal");
         paisesAvaliados.add("Espanha");
@@ -163,7 +163,7 @@ class EX8Test {
     //sendo que nesta situação, é devolvido o ultimo deles que aparecer no ficheiro de entrada
     @Test
     void findTheTop6() {
-        String fileName= "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 8 test files\\exercicio8_Test3.csv";
+        String fileName= "project-data/ex 8 test files/exercicio8_Test3.csv";
         Set<String> paisesAvaliados= new TreeSet<>();
         paisesAvaliados.add("Portugal");
         paisesAvaliados.add("Espanha");
@@ -185,7 +185,7 @@ class EX8Test {
     //o numero de estados pedidos para o top ser maior do que os existentes
     @Test
     void findTheTop7() {
-        String fileName= "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 8 test files\\exercicio8_Test3.csv";
+        String fileName= "project-data/ex 8 test files/exercicio8_Test3.csv";
         Set<String> paisesAvaliados= new TreeSet<>();
         paisesAvaliados.add("Portugal");
         paisesAvaliados.add("Espanha");
@@ -224,7 +224,7 @@ class EX8Test {
     // apenas entram para a equação os postos com o status a "Open"
     @Test
     void findTheTop8() {
-        String fileName= "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 8 test files\\exercicio8_Test4.csv";
+        String fileName= "project-data/ex 8 test files/exercicio8_Test4.csv";
         Set<String> paisesAvaliados= new TreeSet<>();
         paisesAvaliados.add("Portugal");
         paisesAvaliados.add("Espanha");
@@ -247,6 +247,27 @@ class EX8Test {
         cities.add("Braga");
         cities.add("Seville");
         int totalPower = 36000;
+
+        ResultEX8 expectedResult = new ResultEX8(cities,estadosResultado, totalPower);
+
+        ResultEX8 result = teste.findTheTop(fileName,n,paisesAvaliados);
+
+        assertEquals(expectedResult,result);
+
+    }
+    //Com o ficheiro do professor mas apenas mudamos o valor de um Supercharger para saber o resultado
+    @Test
+    void findTheTop9() {
+        String fileName= "project-data/carregadores_europa.csv";
+        Set<String> paisesAvaliados= new TreeSet<>();
+        paisesAvaliados.add("Sweden");
+
+        Set<String> estadosResultado= new TreeSet<>();
+        estadosResultado.add("TESTE1");
+        int n = 1;
+        Set<String> cities = new TreeSet<>();
+        cities.add("Bj�rkliden");
+        int totalPower = 3*99999999;
 
         ResultEX8 expectedResult = new ResultEX8(cities,estadosResultado, totalPower);
 

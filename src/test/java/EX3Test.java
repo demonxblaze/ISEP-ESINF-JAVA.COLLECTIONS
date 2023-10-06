@@ -13,7 +13,7 @@ class EX3Test {
     //teste para um input de apenas um pais com alguns dados de pares anuais de venda
     @Test
     void getSalesData1() {
-        String filename = "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 3 test files\\exercicio3_Test1.csv";
+        String filename = "project-data/ex 3 test files/exercicio3_Test1.csv";
         Map<String, Set<ParAnos>> expectedResult = new HashMap<>();
         String key = "Australia";
         Set<ParAnos> values = new TreeSet<>();
@@ -30,7 +30,7 @@ class EX3Test {
     //teste para um input de varios paises com alguns dados de pares anuais de venda
     @Test
     void getSalesData2() {
-        String filename = "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 3 test files\\exercicio3_Test2.csv";
+        String filename = "project-data/ex 3 test files/exercicio3_Test2.csv";
         Map<String, Set<ParAnos>> expectedResult = new HashMap<>();
         String key = "Australia";
         Set<ParAnos> values = new TreeSet<>();
@@ -59,7 +59,7 @@ class EX3Test {
     //teste para um input de apenas um pais sem dados de pares anuais de venda
     @Test
     void getSalesData3() {
-        String filename = "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 3 test files\\exercicio3_Test3.csv";
+        String filename = "project-data/ex 3 test files/exercicio3_Test3.csv";
         Map<String, Set<ParAnos>> expectedResult = new HashMap<>();
 
 
@@ -72,7 +72,7 @@ class EX3Test {
     //teste para um input de varios paises com dados de pares anuais de venda e alguns sem
     @Test
     void getSalesData4() {
-        String filename = "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ex 3 test files\\exercicio3_Test4.csv";
+        String filename = "project-data/ex 3 test files/exercicio3_Test4.csv";
         Map<String, Set<ParAnos>> expectedResult = new HashMap<>();
         String key = "França";
         Set<ParAnos> values = new TreeSet<>();
@@ -95,7 +95,7 @@ class EX3Test {
     //feito com ficheiro do professor ev_sales.csv
     @Test
     void getSalesData5() {
-        String filename = "C:\\Users\\diogo\\Desktop\\isep\\cadeiras\\2ANO\\ESINF\\First Project\\first-esinf-project\\project-data\\ev_sales.csv";
+        String filename = "project-data/ev_sales.csv";
         Map<String, Set<ParAnos>> expectedResult = new HashMap<>();
 
         Set<ParAnos> australiaValues = new TreeSet<>();
