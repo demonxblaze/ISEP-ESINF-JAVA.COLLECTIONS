@@ -83,8 +83,6 @@ public class EX3 {
                 }
             }
         }
-
-
         return result;
     }
 

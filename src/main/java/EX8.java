@@ -9,7 +9,7 @@ public class EX8 {
     public EX8() {
     }
 
-    public  Map<String, Set<State>> cityPowerCounter(String fileName) {
+    private  Map<String, Set<State>> cityPowerCounter(String fileName) {
         Map<String, Set<State>> map = new HashMap<>();
 
         List<String[]> lines = FileScanner.coutryStateCityPower(fileName);
