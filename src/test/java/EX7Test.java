@@ -73,7 +73,7 @@ class EX7Test {
         assertEquals(expected,result);
     }
     @Test
-    void addVeichel(){}{
+    void addVeichel(){
         CarregadoresPais p1 = new CarregadoresPais("Portugal");
         p1.setTotalNumOfVeichels(1200);
         int expected = 1300;
