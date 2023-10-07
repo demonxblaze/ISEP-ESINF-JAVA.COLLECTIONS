@@ -9,14 +9,7 @@ public class EX2 {
     //Para isso determine a taxa de crescimento entre 2 quaisquer anos do número de veículos
     // elétricos nos vários países.
     // A taxa é dada por (último ano - primeiro ano) / primeiro ano.
-    public static void main(String[] args) {
-        List<String[]> imported = FileScanner.lerCSV("project-data/ev_sales.csv");
-        EX2 ex2 = new EX2();
-        Map<String, Double> report = ex2.getSalesByCountrieAndYear(imported, 2011, 2012);
-        for (Map.Entry<String, Double> entry : report.entrySet()) {
-            System.out.println(entry.getKey() + " " + entry.getValue());
-        }
-    }
+
 
 
     public Map<String, Double> getSalesByCountrieAndYear(List<String[]> imported, int firtYear, int lastYear) {
@@ -49,8 +42,7 @@ public class EX2 {
         for (Map.Entry<String, Map<Integer, Integer>> country : salesBycountryAndYear.entrySet()) {
 
             if (country.getValue().get(firtYear) != null && country.getValue().get(lastYear) != null) {
-                //q: does it make mor sense to use .getValue().contains ?
-                //a:
+
                 double evolutationRate = evolutionRate(country.getValue().get(firtYear), country.getValue().get(lastYear));
                 evolutationRateByCounty.put(country.getKey(), evolutationRate);
             } else {

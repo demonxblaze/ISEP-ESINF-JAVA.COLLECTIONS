@@ -13,20 +13,6 @@ public class EX7 {
     //ev_sales.csv : country,powertrain,year,number_of_vehicles
 
 
-    public static void main(String[] args) {
-       //List<String[]> importedSales = FileScanner.lerCSV("project-data/ex7 test files/ex7_sales_teste1.csv");
-       //List<String[]> importedChargers = FileScanner.lerCSV("project-data/ex7 test files/ex7_charger_teste1.csv");
-        List<String[]> importedSales = FileScanner.lerCSV("project-data/ev_sales.csv");
-        List<String[]> importedChargers = FileScanner.lerCSV("project-data/carregadores_europa.csv");
-        EX7 ex7 = new EX7();
-        Map<String, CarregadoresPais> report = ex7.getReport(importedSales, importedChargers, 2011);
-        for (Map.Entry<String, CarregadoresPais> entry : report.entrySet()) {
-            System.out.println(entry.getKey() + " " + entry.getValue().getTotalNumOfStalls() + " " + entry.getValue().getTotalNumOfVeichels() + " " + entry.getValue().getQuota());
-        }
-
-
-    }
-
     public Map<String, CarregadoresPais> getReport(List<String[]> importedSales, List<String[]> importedChargers, int year) {
 
         Map<String, CarregadoresPais> report = new TreeMap<>();
