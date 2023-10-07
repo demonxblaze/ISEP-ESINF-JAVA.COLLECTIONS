@@ -114,6 +114,8 @@ class EX5Test {
         double expectedDistance = 1038.47;
 
         HashMap<String, Double> result = ex5.exercicio5(chargers);
+
+        assertEquals(expectedDistance, result.get("France"), 0.01);
     }
     @Test
     void exercicio5Germany(){

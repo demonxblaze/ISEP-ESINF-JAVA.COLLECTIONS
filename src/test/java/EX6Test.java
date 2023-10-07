@@ -54,7 +54,7 @@ class EX6Test {
 
         POI[] pois = {};
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\ex6 test files\\ex6-teste2.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data\\ex6 test files\\ex6-teste1.csv");
 
         EX6 ex6 = new EX6();
 
@@ -111,13 +111,6 @@ class EX6Test {
         chargersList[3] = new Charger("Beaune, France", "France", "47.017089, 4.836543");
         chargersList[4] = new Charger("Aichstetten, Germany", "Germany", "47.88036, 10.040488");
         chargersList[5] = new Charger("London - North Greenwich, UK", "United Kingdom", "51.5023724, -0.0018343");
-
-        for (Charger c : chargersList) {
-
-            System.out.println(EX6.getDistance(pois[0].getGps(), c.getGps()));
-            System.out.println(EX6.getDistance(pois[1].getGps(), c.getGps()));
-        }
-
 
         pois[0].addCharger(chargersList[0]);
         pois[0].addCharger(chargersList[1]);
