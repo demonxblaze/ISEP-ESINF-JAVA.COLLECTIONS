@@ -171,7 +171,7 @@ public class CarregadoresPais {
             this.quota = 0;
             return;
         }
-        double quota = ((double)totalNumOfStalls/(double) totalNumOfVeichels)*RATIO;
+        double quota = ((double)totalNumOfStalls/(double) totalNumOfVeichels)*100*RATIO;
         this.quota = Math.round(quota * 100.0) / 100.0;
     }
 
