@@ -7,7 +7,7 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Exercicio1Test {
+class EX1Test {
 
     @Test
     public void testExercicio1WithNonexistentFile() {

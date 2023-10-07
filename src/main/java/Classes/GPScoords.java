@@ -30,6 +30,9 @@ public class GPScoords {
     }
 
     public double [] stringToIntGps(String gps){
+        if(gps.charAt(0) == '\"'){
+            gps = gps.substring(1,gps.length()-1);
+        }
         String [] coordenadas = gps.split(", ");
         return new double [] {Double.parseDouble(coordenadas[0]),Double.parseDouble(coordenadas[1])};
     }
