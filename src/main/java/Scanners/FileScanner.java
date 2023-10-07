@@ -1,5 +1,7 @@
 package Scanners;
 
+import Classes.Charger;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
@@ -81,28 +83,44 @@ public interface FileScanner {
         return countryCityList;
     }
 
-    static List<String[]> getCountryChargerList(String filename){
+    static List<Charger> getChargerList(String filename){
 
         List<String[]> lines = lerCSV(filename);
 
-        List<String[]> countryChargerList = new ArrayList<>();
+        List<Charger> chargerList = new ArrayList<>();
 
         for (String[] s : lines) {
+
             String country = s[5];
             String charger = s[3];
             String gps = s[8];
 
-            String[] countryCharger = new String[3];
-            countryCharger[0] = country;
-            countryCharger[1] = charger;
-            countryCharger[2] = gps;
-
-            countryChargerList.add(countryCharger);
+            chargerList.add(new Charger(charger, country,gps));
         }
 
 
-        return countryChargerList;
+        return chargerList;
     }
+
+    static List<Charger> getCountryChargerList(String filename, String country) {
+
+        List<String[]> lines = lerCSV(filename);
+
+        List<Charger> chargerList = new ArrayList<>();
+
+        for (String[] s : lines) {
+            String country1 = s[5];
+            String charger = s[3];
+            String gps = s[8];
+
+            if (country1.equalsIgnoreCase(country)) {
+                chargerList.add(new Charger(charger, country, gps));
+            }
+        }
+
+        return chargerList;
+    }
+
     static List<String[]> coutryStateCityPower(String fileName) {
 
         List<String[]> lines = lerCSV(fileName);

@@ -31,6 +31,15 @@ public class EX6 {
         POI temp = null;
         double minDist;
 
+        if (pois == null || chargers == null) {
+            return null;
+        }
+
+        if (pois.length == 0 || chargers.length == 0) {
+            return null;
+        }
+
+
         for (Charger c : chargers) {
             minDist = Double.MAX_VALUE;
             for (POI p : pois) {
@@ -40,31 +49,12 @@ public class EX6 {
                 }
             }
 
-            try {
-
-                temp.addCharger(c);
-
-            } catch (NullPointerException e) {
-                System.out.println("Não foram definidos POI's");
-            }
-        }
-
-        for (POI p : pois) {
-            System.out.println(p.getChargersNumber());
+            temp.addCharger(c);
 
         }
 
-        TreeSet<POI> treeSet = new TreeSet<>(new Comparator<POI>() {
-            @Override
-            public int compare(POI o1, POI o2) {
-                return o2.getChargersNumber() - o1.getChargersNumber();
-            }
 
-            @Override
-            public boolean equals(Object obj) {
-                return false;
-            }
-        });
+        TreeSet<POI> treeSet = new TreeSet<>();
 
         treeSet.addAll(Arrays.asList(pois));
 
