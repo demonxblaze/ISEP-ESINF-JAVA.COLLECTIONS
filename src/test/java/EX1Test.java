@@ -32,7 +32,7 @@ class EX1Test {
     @org.junit.jupiter.api.Test
     void exercicio1_Print() {
         EX1 instance = new EX1(); // Replace 'YourClass' with the name of your class that contains the exercicio1 method
-        Map<String, Set<City>> map = instance.getChargerCityPerCountry("project-data/ex1 test files/exercicio1_Test4.csv");
+        Map<String, Set<City>> map = instance.getChargerCityPerCountry("project-data/carregadores_europa.csv");
 
         for (Map.Entry<String, Set<City>> entry : map.entrySet()) {
             System.out.println("Country: " + entry.getKey());

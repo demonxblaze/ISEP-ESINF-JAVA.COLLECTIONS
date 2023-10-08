@@ -7,7 +7,7 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class Exercicio4Test {
+class EX4Test {
 
     @Test
     public void exercicio4_Print() {
