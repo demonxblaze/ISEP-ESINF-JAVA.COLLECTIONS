@@ -24,8 +24,9 @@ public class EX7 {
                 report.put(country, new CarregadoresPais(country));
             }
             //if country is in the map, get the object and add the stalls
-            if (report.containsKey(country))
+            if (report.containsKey(country)) {
                 report.get(country).addStalls(stalls);
+            }
 
         }
         for (String[] lines : importedSales) {
