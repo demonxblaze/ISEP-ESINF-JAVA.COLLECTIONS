@@ -29,9 +29,9 @@ class EX1Test {
         assertTrue(result.isEmpty());
     }
 
-    @org.junit.jupiter.api.Test
+ /*   @org.junit.jupiter.api.Test
     void exercicio1_Print() {
-        EX1 instance = new EX1(); // Replace 'YourClass' with the name of your class that contains the exercicio1 method
+        EX1 instance = new EX1();
         Map<String, Set<City>> map = instance.getChargerCityPerCountry("project-data/carregadores_europa.csv");
 
         for (Map.Entry<String, Set<City>> entry : map.entrySet()) {
@@ -41,7 +41,7 @@ class EX1Test {
                 System.out.println("  City: " + city.getName() + ", Number of Chargers: " + city.getNumberChargers());
             }
         }
-    }
+    }*/
 
     @org.junit.jupiter.api.Test
     public void exercicio1_Ficheiro1_CheckResults() {

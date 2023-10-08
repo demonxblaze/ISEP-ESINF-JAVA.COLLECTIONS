@@ -8,7 +8,7 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
 
 class EX4Test {
-
+/*
     @Test
     public void exercicio4_Print() {
         EX4 exercicio4 = new EX4();
@@ -29,7 +29,7 @@ class EX4Test {
             System.out.printf("%-15s %-12d %-10d %d%n", country, above150, belowOrEqual150, total);
         }
     }
-
+*/
     @Test
     public void exercicio4_CheckGermanyExists(){
         EX4 exercicio4 = new EX4();
@@ -69,7 +69,7 @@ class EX4Test {
         }
     }
 
-    @Test
+   /* @Test
     public void exercicio4_Test1_Print(){
         EX4 exercicio4 = new EX4();
 
@@ -88,7 +88,7 @@ class EX4Test {
 
             System.out.printf("%-15s %-12d %-10d %d%n", country, above150, belowOrEqual150, total);
         }
-    }
+    }*/
 
     @Test
     public void exercicio4_Test1_CheckCountries() {
