@@ -14,7 +14,7 @@ class EX5Test {
     @Test
     void exercicio5Austria() {
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -28,7 +28,7 @@ class EX5Test {
     @Test
     void exercicio5Belgium() {
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -41,7 +41,7 @@ class EX5Test {
     @Test
     void exercicio5Bulgaria() {
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -55,7 +55,7 @@ class EX5Test {
 
     void exercicio5Croatia() {
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -68,7 +68,7 @@ class EX5Test {
     @Test
     void exercicio5CzechRepublic() {
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -81,7 +81,7 @@ class EX5Test {
     @Test
     void exercicio5Denmark() {
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -94,7 +94,7 @@ class EX5Test {
     @Test
     void exercicio5Finland(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -107,7 +107,7 @@ class EX5Test {
     @Test
     void exercicio5France(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -120,7 +120,7 @@ class EX5Test {
     @Test
     void exercicio5Germany(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -133,7 +133,7 @@ class EX5Test {
     @Test
     void exercicio5Greece(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
         double expectedDistance = 210.14;
@@ -145,7 +145,7 @@ class EX5Test {
     @Test
     void exercicio5Hungary(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 374.39;
 
@@ -156,7 +156,7 @@ class EX5Test {
     @Test
     void exercicio5Iceland(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 377.87;
 
@@ -167,7 +167,7 @@ class EX5Test {
     @Test
     void exercicio5Ireland(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 285.25;
 
@@ -178,7 +178,7 @@ class EX5Test {
     @Test
     void exercicio5Italy(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 1111.15;
 
@@ -189,7 +189,7 @@ class EX5Test {
     @Test
     void exercicio5Latvia(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 198.93;
 
@@ -200,7 +200,7 @@ class EX5Test {
     @Test
     void exercicio5Litcheinstein(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 0.0;
 
@@ -211,7 +211,7 @@ class EX5Test {
     @Test
     void exercicio5Lithuania(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 0.0;
         HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
@@ -221,7 +221,7 @@ class EX5Test {
     @Test
     void exercicio5Luxembourg(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 0.0;
         HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
@@ -231,7 +231,7 @@ class EX5Test {
     @Test
     void exercicio5Morroco(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
 
         double expectedDistance = 677.14;
@@ -242,7 +242,7 @@ class EX5Test {
     @Test
     void exercicio5Netherlands(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
 
         double expectedDistance = 288.17;
@@ -253,7 +253,7 @@ class EX5Test {
     @Test
     void exercicio5Norway(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
 
         double expectedDistance = 1673.65;
@@ -264,7 +264,7 @@ class EX5Test {
     @Test
     void exercicio5Poland(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
 
         double expectedDistance = 506.22;
@@ -275,7 +275,7 @@ class EX5Test {
     @Test
     void exercicio5Portugal(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
         EX5 ex5 = new EX5();
 
         double expectedDistance = 490.23;
@@ -286,7 +286,7 @@ class EX5Test {
     @Test
     void exercicio5Romania(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -298,7 +298,7 @@ class EX5Test {
     @Test
     void exercicio5Russia(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -310,7 +310,7 @@ class EX5Test {
     @Test
     void exercicio5Serbia(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -322,7 +322,7 @@ class EX5Test {
     @Test
     void exercicio5Slovakia(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -334,7 +334,7 @@ class EX5Test {
     @Test
     void exercicio5Slovenia(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -346,7 +346,7 @@ class EX5Test {
     @Test
     void exercicio5Spain(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -358,7 +358,7 @@ class EX5Test {
     @Test
     void exercicio5Sweden(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
 
@@ -371,7 +371,7 @@ class EX5Test {
     @Test
     void exercicio5Switzerland(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
         double expectedDistance = 288.05;
@@ -383,7 +383,7 @@ class EX5Test {
     @Test
     void exercicio5Turkey(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
         double expectedDistance = 559.94;
@@ -394,7 +394,7 @@ class EX5Test {
     @Test
     void exercicio5UnitedKingdom(){
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/carregadores_europa.csv");
 
         EX5 ex5 = new EX5();
         double expectedDistance = 809.51;

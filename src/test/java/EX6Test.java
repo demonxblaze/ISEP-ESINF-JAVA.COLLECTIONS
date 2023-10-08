@@ -24,7 +24,7 @@ class EX6Test {
 
         POI[] poisResult = pois.clone();
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\ex6 test files\\ex6-teste1.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/ex6 test files/ex6-teste1.csv");
 
         Charger[] chargersList = new Charger[6];
 
@@ -54,7 +54,7 @@ class EX6Test {
 
         POI[] pois = {};
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\ex6 test files\\ex6-teste1.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/ex6 test files/ex6-teste1.csv");
 
         EX6 ex6 = new EX6();
 
@@ -101,7 +101,7 @@ class EX6Test {
 
         POI[] poisResult = pois.clone();
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\ex6 test files\\ex6-teste1.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/ex6 test files/ex6-teste1.csv");
 
         Charger[] chargersList = new Charger[6];
 
@@ -137,7 +137,7 @@ class EX6Test {
 
         POI[] poisResult = pois.clone();
 
-        List<Charger> chargers = FileScanner.getChargerList("project-data\\ex6 test files\\ex6-teste1.csv");
+        List<Charger> chargers = FileScanner.getChargerList("project-data/ex6 test files/ex6-teste1.csv");
 
         Charger[] chargersList = new Charger[6];
 
