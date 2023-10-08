@@ -26,7 +26,7 @@ public class EX5 {
         return R * c;
     }
 
-    public HashMap<String, Double> exercicio5(List<Charger> chargers) {
+    public HashMap<String, Double> getMinimalAuthonomyByCountry(List<Charger> chargers) {
 
         HashMap<String, Double> map = new HashMap<>();
 

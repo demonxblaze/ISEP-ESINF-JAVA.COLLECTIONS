@@ -20,7 +20,7 @@ class EX5Test {
 
         double expectedDistance = 546.92;
 
-        HashMap <String, Double> result = ex5.exercicio5(chargers);
+        HashMap <String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Austria"), 0.01);
     }
@@ -34,7 +34,7 @@ class EX5Test {
 
         double expectedDistance = 251.30;
 
-        HashMap <String, Double> result = ex5.exercicio5(chargers);
+        HashMap <String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Belgium"), 0.01);
     }
@@ -47,7 +47,7 @@ class EX5Test {
 
         double expectedDistance = 132.39;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Bulgaria"), 0.01);
     }
@@ -61,7 +61,7 @@ class EX5Test {
 
         double expectedDistance = 298.93;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Croatia"), 0.01);
     }
@@ -74,7 +74,7 @@ class EX5Test {
 
         double expectedDistance = 283.95;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Czech Republic"), 0.01);
     }
@@ -87,7 +87,7 @@ class EX5Test {
 
         double expectedDistance = 310.67;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Denmark"), 0.01);
     }
@@ -100,7 +100,7 @@ class EX5Test {
 
         double expectedDistance = 921.55;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Finland"), 0.01);
     }
@@ -113,7 +113,7 @@ class EX5Test {
 
         double expectedDistance = 1038.47;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("France"), 0.01);
     }
@@ -126,7 +126,7 @@ class EX5Test {
 
         double expectedDistance = 815.05;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Germany"), 0.01);
     }
@@ -138,7 +138,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
         double expectedDistance = 210.14;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Greece"), 0.01);
     }
@@ -149,7 +149,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
         double expectedDistance = 374.39;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Hungary"), 0.01);
     }
@@ -160,7 +160,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
         double expectedDistance = 377.87;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Iceland"), 0.01);
     }
@@ -171,7 +171,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
         double expectedDistance = 285.25;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Ireland"), 0.01);
     }
@@ -182,7 +182,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
         double expectedDistance = 1111.15;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Italy"), 0.01);
     }
@@ -193,7 +193,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
         double expectedDistance = 198.93;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Latvia"), 0.01);
     }
@@ -204,7 +204,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
         double expectedDistance = 0.0;
 
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Liechtenstein"), 0.01);
     }
@@ -214,7 +214,7 @@ class EX5Test {
         List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 0.0;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Lithuania"), 0.01);
     }
@@ -224,7 +224,7 @@ class EX5Test {
         List<Charger> chargers = FileScanner.getChargerList("project-data\\carregadores_europa.csv");
         EX5 ex5 = new EX5();
         double expectedDistance = 0.0;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Luxembourg"), 0.01);
     }
@@ -235,7 +235,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 677.14;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Morocco"), 0.01);
     }
@@ -246,7 +246,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 288.17;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Netherlands"), 0.01);
     }
@@ -257,7 +257,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 1673.65;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Norway"), 0.01);
     }
@@ -268,7 +268,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 506.22;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Poland"), 0.01);
     }
@@ -279,7 +279,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 490.23;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Portugal"), 0.01);
     }
@@ -291,7 +291,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 606.69;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Romania"), 0.01);
     }
@@ -303,7 +303,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 0.0;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Russia"), 0.01);
     }
@@ -315,7 +315,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 160.26;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Serbia"), 0.01);
     }
@@ -327,7 +327,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance  =310.93;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Slovakia"), 0.01);
     }
@@ -339,7 +339,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 171.22;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Slovenia"), 0.01);
     }
@@ -351,7 +351,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 1005.51;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Spain"), 0.01);
     }
@@ -363,7 +363,7 @@ class EX5Test {
         EX5 ex5 = new EX5();
 
         double expectedDistance = 1463.45;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Sweden"), 0.01);
 
@@ -375,7 +375,7 @@ class EX5Test {
 
         EX5 ex5 = new EX5();
         double expectedDistance = 288.05;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Switzerland"), 0.01);
 
@@ -387,7 +387,7 @@ class EX5Test {
 
         EX5 ex5 = new EX5();
         double expectedDistance = 559.94;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("Turkey"), 0.01);
     }
@@ -398,7 +398,7 @@ class EX5Test {
 
         EX5 ex5 = new EX5();
         double expectedDistance = 809.51;
-        HashMap<String, Double> result = ex5.exercicio5(chargers);
+        HashMap<String, Double> result = ex5.getMinimalAuthonomyByCountry(chargers);
 
         assertEquals(expectedDistance, result.get("United Kingdom"), 0.01);
     }

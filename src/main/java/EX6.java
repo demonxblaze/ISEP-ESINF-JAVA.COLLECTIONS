@@ -26,7 +26,7 @@ public class EX6 {
         return R * c;
     }
 
-    public TreeSet<POI> exercicio6(POI[] pois, Charger[] chargers){
+    public TreeSet<POI> getPOIsChargers(POI[] pois, Charger[] chargers){
 
         POI temp = null;
         double minDist;

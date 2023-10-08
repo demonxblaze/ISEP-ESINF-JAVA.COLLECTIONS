@@ -46,7 +46,7 @@ class EX6Test {
 
         TreeSet<POI> treeSet = new TreeSet<>(Arrays.asList(pois));
 
-        assertEquals(treeSet, ex6.exercicio6(poisResult, chargers.toArray(new Charger[chargers.size()])));
+        assertEquals(treeSet, ex6.getPOIsChargers(poisResult, chargers.toArray(new Charger[chargers.size()])));
     }
 
     @Test
@@ -58,7 +58,7 @@ class EX6Test {
 
         EX6 ex6 = new EX6();
 
-        assertNull(ex6.exercicio6(pois, chargers.toArray(new Charger[chargers.size()])));
+        assertNull(ex6.getPOIsChargers(pois, chargers.toArray(new Charger[chargers.size()])));
     }
 
     @Test
@@ -73,7 +73,7 @@ class EX6Test {
 
         EX6 ex6 = new EX6();
 
-        assertNull(ex6.exercicio6(pois, chargers));
+        assertNull(ex6.getPOIsChargers(pois, chargers));
 
     }
 
@@ -85,7 +85,7 @@ class EX6Test {
 
         EX6 ex6 = new EX6();
 
-        assertNull(ex6.exercicio6(pois, chargers));
+        assertNull(ex6.getPOIsChargers(pois, chargers));
 
     }
 
@@ -121,7 +121,7 @@ class EX6Test {
 
         TreeSet<POI> treeSet = new TreeSet<>(Arrays.asList(pois));
 
-        assertEquals(treeSet, ex6.exercicio6(poisResult, chargers.toArray(new Charger[chargers.size()])));
+        assertEquals(treeSet, ex6.getPOIsChargers(poisResult, chargers.toArray(new Charger[chargers.size()])));
 
     }
 
@@ -158,7 +158,7 @@ class EX6Test {
 
         TreeSet<POI> treeSet = new TreeSet<>(Arrays.asList(pois));
 
-        assertEquals(treeSet, ex6.exercicio6(poisResult, chargers.toArray(new Charger[chargers.size()])));
+        assertEquals(treeSet, ex6.getPOIsChargers(poisResult, chargers.toArray(new Charger[chargers.size()])));
 
     }
 }
