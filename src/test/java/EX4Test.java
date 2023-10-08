@@ -8,28 +8,7 @@ import java.util.Set;
 import static org.junit.jupiter.api.Assertions.*;
 
 class EX4Test {
-/*
-    @Test
-    public void exercicio4_Print() {
-        EX4 exercicio4 = new EX4();
 
-        String fileName = "project-data/carregadores_europa.csv";
-
-        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
-
-        System.out.printf("%-15s %-12s %-10s %s%n", "", "kW > 150", "kW <= 150", "Total");
-
-
-        for (CarregadoresPais carregador : dadosPorPais) {
-            String country = carregador.getPais();
-            int above150 = carregador.getNumKwAcima();
-            int belowOrEqual150 = carregador.getNumKwAbaixo();
-            int total = carregador.getTotal();
-
-            System.out.printf("%-15s %-12d %-10d %d%n", country, above150, belowOrEqual150, total);
-        }
-    }
-*/
     @Test
     public void exercicio4_CheckGermanyExists(){
         EX4 exercicio4 = new EX4();
@@ -69,26 +48,6 @@ class EX4Test {
         }
     }
 
-   /* @Test
-    public void exercicio4_Test1_Print(){
-        EX4 exercicio4 = new EX4();
-
-        String fileName = "project-data/ex 4 test files/exercicio4_Test4.csv";
-
-        Set<CarregadoresPais> dadosPorPais = exercicio4.getChargerPerCountryFromKW(fileName, 150);
-
-        System.out.printf("%-15s %-12s %-10s %s%n", "", "kW > 150", "kW <= 150", "Total");
-
-
-        for (CarregadoresPais carregador : dadosPorPais) {
-            String country = carregador.getPais();
-            int above150 = carregador.getNumKwAcima();
-            int belowOrEqual150 = carregador.getNumKwAbaixo();
-            int total = carregador.getTotal();
-
-            System.out.printf("%-15s %-12d %-10d %d%n", country, above150, belowOrEqual150, total);
-        }
-    }*/
 
     @Test
     public void exercicio4_Test1_CheckCountries() {
