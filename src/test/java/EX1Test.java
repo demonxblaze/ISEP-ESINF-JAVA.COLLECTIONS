@@ -22,7 +22,7 @@ class EX1Test {
     @Test
     public void testExercicio1WithEmptyFile() {
         EX1 exercicio1 = new EX1();
-        String fileName = "src/main/java/Ricardo_1220606/empty.csv";
+        String fileName = "project-data/empty.csv";
         Map<String, Set<City>> result = exercicio1.getChargerCityPerCountry(fileName);
 
         assertNotNull(result);

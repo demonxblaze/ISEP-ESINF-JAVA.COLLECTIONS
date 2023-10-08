@@ -1,7 +1,5 @@
 package Classes;
 
-import Lixo.example.Lists.SuperchargersList;
-import Lixo.example.SuperCharger;
 
 /**
  * Author @
