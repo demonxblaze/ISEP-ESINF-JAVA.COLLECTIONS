@@ -42,15 +42,6 @@ public class CarregadoresPais {
         this.totalNumOfStalls = 0;
         this.quota = 0;
     }
-    public CarregadoresPais(String pais,int totalNumOfVeichels,int totalNumOfStalls) {
-        this.country = pais;
-        this.numKwAcima = 0;
-        this.numKwAbaixo = 0;
-        this.total = 0;
-        this.totalNumOfVeichels = totalNumOfVeichels;
-        this.totalNumOfStalls = totalNumOfStalls;
-        this.quota = (double)(totalNumOfStalls/totalNumOfVeichels)*RATIO;
-    }
 
     /**
      * Add a charger above x kW
